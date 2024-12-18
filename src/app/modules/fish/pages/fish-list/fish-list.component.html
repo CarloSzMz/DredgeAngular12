@@ -1,1 +1,12 @@
-<p>fish-list works!</p>
+<div class="container mt-5">
+  <div class="d-flex justify-content-center">
+    <input type="text" class="form-control w-25 shadow bg-info text-center" placeholder="Introduce pez">
+  </div>
+  <div class="row">
+    <app-fish-card
+      *ngFor="let pescao of fish"
+      [pescado]="pescao"
+      class="col-12 col-sm-6 col-md-4 col-lg-3 m-5"
+    ></app-fish-card>
+  </div>
+</div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FishDatum, IFish } from 'src/app/core/models/IFish.model';
 import { FishServiceService } from 'src/app/services/fish/fish-service.service';
 
 @Component({
@@ -8,6 +9,7 @@ import { FishServiceService } from 'src/app/services/fish/fish-service.service';
 })
 export class FishListComponent implements OnInit {
   constructor(private fishService: FishServiceService) {}
+  fish!: FishDatum[];
 
   ngOnInit(): void {
     this.cargarDatos();
@@ -16,6 +18,7 @@ export class FishListComponent implements OnInit {
   cargarDatos() {
     this.fishService.getAllFish().subscribe((response) => {
       console.log(response);
+      this.fish = response.fishData;
     });
   }
 }

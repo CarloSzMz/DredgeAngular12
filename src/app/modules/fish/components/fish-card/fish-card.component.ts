@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { FishDatum } from 'src/app/core/models/IFish.model';
 
 @Component({
   selector: 'app-fish-card',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fish-card.component.css']
 })
 export class FishCardComponent implements OnInit {
+  @Input() pescado!: FishDatum;
 
   constructor() { }
 
