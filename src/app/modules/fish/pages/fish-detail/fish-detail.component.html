@@ -1,1 +1,47 @@
-<p>fish-detail works!</p>
+<div class="container mt-4">
+  <!-- Título -->
+  <h1 class="text-center mb-4">{{ pescado?.name }}</h1>
+
+  <!-- Información del pez -->
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <!-- Card para mostrar los detalles del pez -->
+      <div class="card shadow-lg">
+        <div class="row g-0">
+          <!-- Imagen del pez -->
+          <div class="col-md-4">
+            <img
+              [src]="pescado?.image"
+              alt="{{ pescado?.name }}"
+              class="img-fluid rounded-start"
+              style="object-fit: cover; height: 100%"
+            />
+          </div>
+
+          <!-- Contenido de la tarjeta -->
+          <div class="col-md-8">
+            <div class="card-body">
+              <!-- Nombre del pez -->
+              <h5 class="card-title">{{ pescado?.name }}</h5>
+              <p class="card-text">
+                <strong>Ubicación:</strong> {{ pescado?.location }}<br />
+                <strong>Hora:</strong> {{ pescado?.time }}<br />
+                <strong>Valor por Slot:</strong> {{ pescado?.valuePerSlot
+                }}<br />
+                <strong>Aberraciones:</strong> {{ pescado?.aberrations }}<br />
+                <strong>Grid:</strong> {{ pescado?.grid }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Volver al listado de peces -->
+  <div class="d-flex justify-content-center mt-4">
+    <button class="btn btn-secondary" [routerLink]="'/fishList'">
+      Volver al listado
+    </button>
+  </div>
+</div>
