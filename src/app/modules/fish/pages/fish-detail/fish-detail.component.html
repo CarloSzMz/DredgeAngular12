@@ -11,7 +11,15 @@
           <!-- Imagen del pez -->
           <div class="col-md-4">
             <img
-              [src]="pescado?.image"
+              [src]="pescado?.images?.fishImage"
+              alt="{{ pescado?.name }}"
+              class="img-fluid rounded-start"
+              style="object-fit: cover; height: 100%"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              [src]="pescado?.images?.inventoryImage"
               alt="{{ pescado?.name }}"
               class="img-fluid rounded-start"
               style="object-fit: cover; height: 100%"
@@ -29,7 +37,10 @@
                 <strong>Valor por Slot:</strong> {{ pescado?.valuePerSlot
                 }}<br />
                 <strong>Aberraciones:</strong> {{ pescado?.aberrations }}<br />
-                <strong>Grid:</strong> {{ pescado?.grid }}
+                <strong>Grid:</strong> {{ pescado?.grid }} <br />
+                <strong>Rod:</strong> {{ pescado?.rod }} <br />
+                <strong>Trawl:</strong> {{ pescado?.trawl }} <br />
+                <strong>Pot:</strong> {{ pescado?.pot }} <br />
               </p>
             </div>
           </div>
