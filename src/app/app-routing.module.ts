@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { FishModule } from './modules/fish/fish.module';
 
 const routes: Routes = [
   { path: '', redirectTo: 'fishList', pathMatch: 'full' },
@@ -12,7 +13,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes), FishModule],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}

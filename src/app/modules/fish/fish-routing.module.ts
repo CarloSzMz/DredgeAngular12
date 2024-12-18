@@ -4,8 +4,8 @@ import { FishListComponent } from './pages/fish-list/fish-list.component';
 import { FishDetailComponent } from './pages/fish-detail/fish-detail.component';
 
 const routes: Routes = [
-    { path: '', component: FishListComponent },
-    { path:'fishDetails/:id',component:FishDetailComponent },
+  { path: '', component: FishListComponent },
+  { path: 'fishDetails/:id', component: FishDetailComponent },
 ];
 
 @NgModule({
