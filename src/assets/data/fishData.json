@@ -4,859 +4,1093 @@
       "id": "1",
       "name": "Blue Mackerel",
       "location": "The Marrows",
-      "type": "https://static.wikia.nocookie.net/dredge/images/3/32/TypeBadgeCoastal.png/revision/latest/scale-to-width-down/100?cb=20221005042201",
+      "type": {
+        "name": "Coastal",
+        "image": "https://dredge.wiki.gg/images/thumb/3/32/TypeBadgeCoastal.png/100px-TypeBadgeCoastal.png"
+      },
       "time": "Day",
       "aberrations": "Grotesque Mackerel, Lumpy Mackerel, Many-Eyed Mackerel",
       "valuePerSlot": "$5.00",
       "grid": "2x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/2/26/Blue_Mackerel.png/revision/latest/scale-to-width-down/150?cb=20230504172753"
+      "image": "https://dredge.wiki.gg/images/8/80/Blue_Mackerel_Image.png"
     },
     {
       "id": "2",
       "name": "Cod",
       "location": "The Marrows",
-      "type": "https://static.wikia.nocookie.net/dredge/images/3/32/TypeBadgeCoastal.png/revision/latest/scale-to-width-down/100?cb=20221005042201",
+      "type": {
+        "name": "Coastal",
+        "image": "https://dredge.wiki.gg/images/thumb/3/32/TypeBadgeCoastal.png/100px-TypeBadgeCoastal.png"
+      },
       "time": "Day",
       "aberrations": "All-Seeing Cod, Fanged Cod, Three-Headed Cod",
       "valuePerSlot": "$6.00",
       "grid": "2x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/4/41/Cod.png/revision/latest/scale-to-width-down/150?cb=20230504172813"
+      "image": "https://dredge.wiki.gg/images/4/4d/Cod_Image.png"
     },
     {
       "id": "3",
       "name": "Arrow Squid",
       "location": "The Marrows",
-      "type": "https://static.wikia.nocookie.net/dredge/images/3/32/TypeBadgeCoastal.png/revision/latest/scale-to-width-down/100?cb=20221005042201",
+      "type": {
+        "name": "Coastal",
+        "image": "https://dredge.wiki.gg/images/thumb/3/32/TypeBadgeCoastal.png/100px-TypeBadgeCoastal.png"
+      },
       "time": "Night",
       "aberrations": "Brood Squid, Snag Squid",
       "valuePerSlot": "$7.00",
       "grid": "2x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/9/9d/Arrow_Squid.png/revision/latest/scale-to-width-down/150?cb=20230504172704"
+      "image": "https://dredge.wiki.gg/images/e/e4/Arrow_Squid_Image.png"
     },
     {
       "id": "4",
       "name": "Grey Eel",
       "location": "The Marrows",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeShallow.png/revision/latest/scale-to-width-down/100?cb=20221005052212",
+      "type": {
+        "name": "Shallow",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeShallow.png/100px-TypeBadgeShallow.png"
+      },
       "time": "Any",
       "aberrations": "Barbed Eel, Host Eel",
       "valuePerSlot": "$6.00",
       "grid": "3x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/a/ab/Grey_Eel.png/revision/latest/scale-to-width-down/150?cb=20230504172905"
+      "image": "https://dredge.wiki.gg/images/thumb/e/e8/Grey_Eel_Image.png/300px-Grey_Eel_Image.png"
     },
     {
       "id": "5",
       "name": "Gulf Flounder",
       "location": "The Marrows",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeShallow.png/revision/latest/scale-to-width-down/100?cb=20221005052212",
+      "type": {
+        "name": "Shallow",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeShallow.png/100px-TypeBadgeShallow.png"
+      },
       "time": "Day",
       "aberrations": "Cyclopean Flounder, Riddled Flounder",
       "valuePerSlot": "$4.50",
       "grid": "2x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/6/61/Gulf_Flounder.png/revision/latest/scale-to-width-down/150?cb=20230504172915"
+      "image": "https://dredge.wiki.gg/images/6/69/Gulf_Flounder_Image.png"
     },
     {
       "id": "6",
       "name": "Black Grouper",
       "location": "The Marrows",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeShallow.png/revision/latest/scale-to-width-down/100?cb=20221005052212",
+      "type": {
+        "name": "Shallow",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeShallow.png/100px-TypeBadgeShallow.png"
+      },
       "time": "Night",
       "aberrations": "Tusked Grouper, Voltaic Grouper",
       "valuePerSlot": "$8.75",
       "grid": "2x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/6/66/Black_Grouper.png/revision/latest/scale-to-width-down/150?cb=20230504172718"
+      "image": "https://dredge.wiki.gg/images/d/dc/Black_Grouper_Image.png"
     },
     {
       "id": "7",
       "name": "Stingray",
       "location": "The Marrows",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeShallow.png/revision/latest/scale-to-width-down/100?cb=20221005052212",
+      "type": {
+        "name": "Shallow",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeShallow.png/100px-TypeBadgeShallow.png"
+      },
       "time": "Any",
       "aberrations": "Shard Ray",
       "valuePerSlot": "$8.57",
       "grid": "3x3",
-      "image": "https://static.wikia.nocookie.net/dredge/images/3/3a/Stingray.png/revision/latest/scale-to-width-down/150?cb=20230504173242"
+      "image": "https://dredge.wiki.gg/images/thumb/9/90/Stingray_Image.png/300px-Stingray_Image.png"
     },
     {
       "id": "8",
       "name": "Sailfish",
       "location": "The Marrows",
-      "type": "https://static.wikia.nocookie.net/dredge/images/a/ad/TypeBadgeOceanic.png/revision/latest/scale-to-width-down/100?cb=20221005052222",
+      "type": {
+        "name": "Oceanic",
+        "image": "https://dredge.wiki.gg/images/thumb/a/ad/TypeBadgeOceanic.png/100px-TypeBadgeOceanic.png"
+      },
       "time": "Day",
       "aberrations": "Sallow Sailfish, Hooked Sailfish",
       "valuePerSlot": "$13.33",
       "grid": "6x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/5/56/Sailfish.png/revision/latest/scale-to-width-down/150?cb=20230504173052"
+      "image": "https://dredge.wiki.gg/images/thumb/1/1f/Sailfish_Image.png/300px-Sailfish_Image.png"
     },
     {
       "id": "9",
       "name": "Bronze Whaler",
       "location": "The Marrows",
-      "type": "https://static.wikia.nocookie.net/dredge/images/a/ad/TypeBadgeOceanic.png/revision/latest/scale-to-width-down/100?cb=20221005052222",
+      "type": {
+        "name": "Oceanic",
+        "image": "https://dredge.wiki.gg/images/thumb/a/ad/TypeBadgeOceanic.png/100px-TypeBadgeOceanic.png"
+      },
       "time": "Day",
       "aberrations": "Bloodskin Shark",
       "valuePerSlot": "$16.67",
       "grid": "4x3",
-      "image": "https://static.wikia.nocookie.net/dredge/images/e/ea/Bronze_Whaler.png/revision/latest/scale-to-width-down/150?cb=20230504172808"
+      "image": "https://dredge.wiki.gg/images/thumb/a/ab/Bronze_Whaler_Image.png/300px-Bronze_Whaler_Image.png"
     },
     {
       "id": "10",
       "name": "Blacktip Reef Shark",
       "location": "The Marrows",
-      "type": "https://static.wikia.nocookie.net/dredge/images/a/ad/TypeBadgeOceanic.png/revision/latest/scale-to-width-down/100?cb=20221005052222",
+      "type": {
+        "name": "Oceanic",
+        "image": "https://dredge.wiki.gg/images/thumb/a/ad/TypeBadgeOceanic.png/100px-TypeBadgeOceanic.png"
+      },
       "time": "Night",
       "aberrations": "Cleft-Mouth Shark",
       "valuePerSlot": "$20.00",
       "grid": "4x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/7/73/Blacktip_Reef_Shark.png/revision/latest/scale-to-width-down/150?cb=20230504172733"
+      "image": "https://dredge.wiki.gg/images/thumb/c/c9/Blacktip_Reef_Shark_Image.png/300px-Blacktip_Reef_Shark_Image.png"
     },
     {
       "id": "11",
       "name": "Common Crab",
       "location": "The Marrows",
-      "type": "https://static.wikia.nocookie.net/dredge/images/f/f5/TypeBadgeNone.png/revision/latest/scale-to-width-down/100?cb=20221005052402",
+      "type": {
+        "name": "Crab",
+        "image": "https://dredge.wiki.gg/images/thumb/b/bf/TypeBadgeCrab.png/100px-TypeBadgeCrab.png"
+      },
       "time": "Any",
       "aberrations": "Cerebral Crab",
       "valuePerSlot": "$5.25",
       "grid": "1x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/a/a9/Common_crab.png/revision/latest?cb=20231117215421"
+      "image": "https://dredge.wiki.gg/images/c/c5/Common_Crab_Image.png"
     },
     {
       "id": "12",
       "name": "Fiddler Crab",
       "location": "The Marrows",
-      "type": "https://static.wikia.nocookie.net/dredge/images/f/f5/TypeBadgeNone.png/revision/latest/scale-to-width-down/100?cb=20221005052402",
+      "type": {
+        "name": "Crab",
+        "image": "https://dredge.wiki.gg/images/thumb/b/bf/TypeBadgeCrab.png/100px-TypeBadgeCrab.png"
+      },
       "time": "Any",
       "aberrations": "Malignant Pincer",
       "valuePerSlot": "$7.00",
       "grid": "3x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/b/bc/Fiddler_Crab.png/revision/latest/scale-to-width-down/150?cb=20230504172822"
+      "image": "https://dredge.wiki.gg/images/thumb/1/12/Fiddler_Crab_Image.png/300px-Fiddler_Crab_Image.png"
     },
     {
       "id": "13",
       "name": "Oceanic Perch",
       "location": "Gale Cliffs",
-      "type": "https://static.wikia.nocookie.net/dredge/images/3/32/TypeBadgeCoastal.png/revision/latest/scale-to-width-down/100?cb=20221005042201",
+      "type": {
+        "name": "Coastal",
+        "image": "https://dredge.wiki.gg/images/thumb/3/32/TypeBadgeCoastal.png/100px-TypeBadgeCoastal.png"
+      },
       "time": "Day",
       "aberrations": "Gnashing Perch",
       "valuePerSlot": "$5.50",
       "grid": "1x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/3/32/Oceanic_Perch.png/revision/latest?cb=20230504173009"
+      "image": "https://dredge.wiki.gg/images/5/52/Oceanic_Perch_Image.png"
     },
     {
       "id": "14",
       "name": "Tiger Mackerel",
       "location": "Gale Cliffs",
-      "type": "https://static.wikia.nocookie.net/dredge/images/3/32/TypeBadgeCoastal.png/revision/latest/scale-to-width-down/100?cb=20221005042201",
+      "type": {
+        "name": "Coastal",
+        "image": "https://dredge.wiki.gg/images/thumb/3/32/TypeBadgeCoastal.png/100px-TypeBadgeCoastal.png"
+      },
       "time": "Day",
       "aberrations": "Flayed Mackerel, Bearded Mackerel",
       "valuePerSlot": "$6.25",
       "grid": "2x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/7/73/Tiger_Mackerel.png/revision/latest/scale-to-width-down/150?cb=20230504173309"
+      "image": "https://dredge.wiki.gg/images/e/ed/Tiger_Mackerel_Image.png"
     },
     {
       "id": "15",
       "name": "Black Sea Bass",
       "location": "Gale Cliffs",
-      "type": "https://static.wikia.nocookie.net/dredge/images/3/32/TypeBadgeCoastal.png/revision/latest/scale-to-width-down/100?cb=20221005042201",
+      "type": {
+        "name": "Coastal",
+        "image": "https://dredge.wiki.gg/images/thumb/3/32/TypeBadgeCoastal.png/100px-TypeBadgeCoastal.png"
+      },
       "time": "Night",
       "aberrations": "Scouring Bass",
       "valuePerSlot": "$7.50",
       "grid": "2x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/9/94/Black_Sea_Bass.png/revision/latest/scale-to-width-down/150?cb=20230504172726"
+      "image": "https://dredge.wiki.gg/images/1/1c/Black_Sea_Bass_Image.png"
     },
     {
       "id": "16",
       "name": "Stonefish",
       "location": "Gale Cliffs",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeShallow.png/revision/latest/scale-to-width-down/100?cb=20221005052212",
+      "type": {
+        "name": "Shallow",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeShallow.png/100px-TypeBadgeShallow.png"
+      },
       "time": "Any",
       "aberrations": "Gelatinous Stonefish, Enthralled Stonefish",
       "valuePerSlot": "$5.50",
       "grid": "2x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/0/03/Stonefish.png/revision/latest/scale-to-width-down/150?cb=20230504173249"
+      "image": "https://dredge.wiki.gg/images/1/1b/Stonefish_Image.png"
     },
     {
       "id": "17",
       "name": "Blackmouth Salmon",
       "location": "Gale Cliffs",
-      "type": "https://static.wikia.nocookie.net/dredge/images/3/32/TypeBadgeCoastal.png/revision/latest/scale-to-width-down/100?cb=20221005042201",
+      "type": {
+        "name": "Coastal",
+        "image": "https://dredge.wiki.gg/images/thumb/3/32/TypeBadgeCoastal.png/100px-TypeBadgeCoastal.png"
+      },
       "time": "Any",
       "aberrations": "Decaying Blackmouth",
       "valuePerSlot": "$6.67",
       "grid": "2x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/9/9d/Blackmouth_Salmon.png/revision/latest/scale-to-width-down/150?cb=20230406023951"
+      "image": "https://dredge.wiki.gg/images/6/61/Blackmouth_Salmon_Image.png"
     },
     {
       "id": "18",
       "name": "Conger Eel",
       "location": "Gale Cliffs",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeShallow.png/revision/latest/scale-to-width-down/100?cb=20221005052212",
+      "type": {
+        "name": "Shallow",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeShallow.png/100px-TypeBadgeShallow.png"
+      },
       "time": "Night",
       "aberrations": "Sprouting Eel",
       "valuePerSlot": "$10.00",
       "grid": "4x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/2/28/Conger_Eel.png/revision/latest/scale-to-width-down/150?cb=20230406024010"
+      "image": "https://dredge.wiki.gg/images/thumb/9/93/Conger_Eel_Image.png/300px-Conger_Eel_Image.png"
     },
     {
       "id": "19",
       "name": "Devil Ray",
       "location": "Gale Cliffs",
-      "type": "https://static.wikia.nocookie.net/dredge/images/a/ad/TypeBadgeOceanic.png/revision/latest/scale-to-width-down/100?cb=20221005052222",
+      "type": {
+        "name": "Oceanic",
+        "image": "https://dredge.wiki.gg/images/thumb/a/ad/TypeBadgeOceanic.png/100px-TypeBadgeOceanic.png"
+      },
       "time": "Night",
       "aberrations": "Withered Ray",
       "valuePerSlot": "$6.88",
       "grid": "4x3",
-      "image": "https://static.wikia.nocookie.net/dredge/images/8/8d/Devil_Ray.png/revision/latest/scale-to-width-down/150?cb=20230406024022"
+      "image": "https://dredge.wiki.gg/images/thumb/3/34/Devil_Ray_Image.png/300px-Devil_Ray_Image.png"
     },
     {
       "id": "20",
       "name": "Sturgeon",
       "location": "Gale Cliffs",
-      "type": "https://static.wikia.nocookie.net/dredge/images/a/ad/TypeBadgeOceanic.png/revision/latest/scale-to-width-down/100?cb=20221005052222",
+      "type": {
+        "name": "Oceanic",
+        "image": "https://dredge.wiki.gg/images/thumb/a/ad/TypeBadgeOceanic.png/100px-TypeBadgeOceanic.png"
+      },
       "time": "Day",
       "aberrations": "Translucent Sturgeon",
       "valuePerSlot": "$12.50",
       "grid": "3x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/4/42/Sturgeon.png/revision/latest/scale-to-width-down/150?cb=20230504173256"
+      "image": "https://dredge.wiki.gg/images/thumb/4/49/Sturgeon_Image.png/300px-Sturgeon_Image.png"
     },
     {
       "id": "21",
       "name": "Wreckfish",
       "location": "Gale Cliffs",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeShallow.png/revision/latest/scale-to-width-down/100?cb=20221005052212",
+      "type": {
+        "name": "Shallow",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeShallow.png/100px-TypeBadgeShallow.png"
+      },
       "time": "Day",
       "aberrations": "Shattered Wreckfish, Bony Wreckfish",
       "valuePerSlot": "$10.00",
       "grid": "3x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/a/af/Wreckfish.png/revision/latest/scale-to-width-down/150?cb=20230504173327"
+      "image": "https://dredge.wiki.gg/images/thumb/6/64/Wreckfish_Image.png/300px-Wreckfish_Image.png"
     },
     {
       "id": "22",
       "name": "Rock Crab",
       "location": "Gale Cliffs",
-      "type": "https://static.wikia.nocookie.net/dredge/images/f/f5/TypeBadgeNone.png/revision/latest/scale-to-width-down/100?cb=20221005052402",
+      "type": {
+        "name": "Crab",
+        "image": "https://dredge.wiki.gg/images/thumb/b/bf/TypeBadgeCrab.png/100px-TypeBadgeCrab.png"
+      },
       "time": "Any",
       "aberrations": "Splintered Crab",
       "valuePerSlot": "$5.75",
       "grid": "2x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/d/d4/Rock_Crab.png/revision/latest/scale-to-width-down/150?cb=20230504173044"
+      "image": "https://dredge.wiki.gg/images/f/f6/Rock_Crab_Image.png"
     },
     {
       "id": "23",
       "name": "Decorator Crab",
       "location": "Gale Cliffs",
-      "type": "https://static.wikia.nocookie.net/dredge/images/f/f5/TypeBadgeNone.png/revision/latest/scale-to-width-down/100?cb=20221005052402",
+      "type": {
+        "name": "Crab",
+        "image": "https://dredge.wiki.gg/images/thumb/b/bf/TypeBadgeCrab.png/100px-TypeBadgeCrab.png"
+      },
       "time": "Any",
       "aberrations": "Cortex Decorator",
       "valuePerSlot": "$6.75",
       "grid": "3x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/5/57/Decorator_Crab.png/revision/latest/scale-to-width-down/150?cb=20230406024016"
+      "image": "https://dredge.wiki.gg/images/thumb/e/e9/Decorator_Crab_Image.png/300px-Decorator_Crab_Image.png"
     },
     {
       "id": "24",
       "name": "Aurora Jellyfish",
       "location": "Stellar Basin",
-      "type": "https://static.wikia.nocookie.net/dredge/images/3/32/TypeBadgeCoastal.png/revision/latest/scale-to-width-down/100?cb=20221005042201",
+      "type": {
+        "name": "Coastal",
+        "image": "https://dredge.wiki.gg/images/thumb/3/32/TypeBadgeCoastal.png/100px-TypeBadgeCoastal.png"
+      },
       "time": "Night",
       "aberrations": "Parhelion Jellyfish",
       "valuePerSlot": "$2.50",
       "grid": "2x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/8/85/Aurora_Jellyfish.png/revision/latest/scale-to-width-down/150?cb=20230406023945"
+      "image": "https://dredge.wiki.gg/images/f/f5/Aurora_Jellyfish_Image.png"
     },
     {
       "id": "25",
       "name": "Fangtooth",
       "location": "Stellar Basin",
-      "type": "https://static.wikia.nocookie.net/dredge/images/1/10/TypeBadgeAbyssal.png/revision/latest/scale-to-width-down/100?cb=20221005052230",
+      "type": {
+        "name": "Abyssal",
+        "image": "https://dredge.wiki.gg/images/thumb/1/10/TypeBadgeAbyssal.png/100px-TypeBadgeAbyssal.png"
+      },
       "time": "Any",
       "aberrations": "Cursed Fangtooth",
       "valuePerSlot": "$8.00",
       "grid": "1x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/1/15/Fangtooth.png/revision/latest?cb=20230406024024"
+      "image": "https://dredge.wiki.gg/images/6/63/Fangtooth_Image.png"
     },
     {
       "id": "26",
       "name": "Barreleye",
       "location": "Stellar Basin",
-      "type": "https://static.wikia.nocookie.net/dredge/images/1/10/TypeBadgeAbyssal.png/revision/latest/scale-to-width-down/100?cb=20221005052230",
+      "type": {
+        "name": "Abyssal",
+        "image": "https://dredge.wiki.gg/images/thumb/1/10/TypeBadgeAbyssal.png/100px-TypeBadgeAbyssal.png"
+      },
       "time": "Any",
       "aberrations": "Voideye",
       "valuePerSlot": "$7.50",
       "grid": "2x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/6/6d/Barreleye.png/revision/latest/scale-to-width-down/150?cb=20230406023947"
+      "image": "https://dredge.wiki.gg/images/d/d5/Barreleye_Image.png"
     },
     {
       "id": "27",
       "name": "Firefly Squid",
       "location": "Stellar Basin",
-      "type": "https://static.wikia.nocookie.net/dredge/images/3/32/TypeBadgeCoastal.png/revision/latest/scale-to-width-down/100?cb=20221005042201",
+      "type": {
+        "name": "Coastal",
+        "image": "https://dredge.wiki.gg/images/thumb/3/32/TypeBadgeCoastal.png/100px-TypeBadgeCoastal.png"
+      },
       "time": "Night",
       "aberrations": "Radiant Squid",
       "valuePerSlot": "$7.50",
       "grid": "2x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/b/b2/Firefly_Squid.png/revision/latest/scale-to-width-down/150?cb=20230406024026"
+      "image": "https://dredge.wiki.gg/images/b/be/Firefly_Squid_Image.png"
     },
     {
       "id": "28",
       "name": "Red Snapper",
       "location": "Stellar Basin",
-      "type": "https://static.wikia.nocookie.net/dredge/images/3/32/TypeBadgeCoastal.png/revision/latest/scale-to-width-down/100?cb=20221005042201",
+      "type": {
+        "name": "Coastal",
+        "image": "https://dredge.wiki.gg/images/thumb/3/32/TypeBadgeCoastal.png/100px-TypeBadgeCoastal.png"
+      },
       "time": "Day",
       "aberrations": "Blood Snapper, Latching Snapper",
       "valuePerSlot": "$6.50",
       "grid": "2x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/d/d3/Red_Snapper.png/revision/latest/scale-to-width-down/150?cb=20230504173036"
+      "image": "https://dredge.wiki.gg/images/4/48/Red_Snapper_Image.png"
     },
     {
       "id": "29",
       "name": "Giant Amphipod",
       "location": "Stellar Basin",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeHadal.png/revision/latest/scale-to-width-down/100?cb=20221005052238",
+      "type": {
+        "name": "Hadal",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeHadal.png/100px-TypeBadgeHadal.png"
+      },
       "time": "Any",
       "aberrations": "Ruptured Vessel",
       "valuePerSlot": "$15.00",
       "grid": "2x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/4/4c/Giant_Amphipod.png/revision/latest/scale-to-width-down/150?cb=20230406024032"
+      "image": "https://dredge.wiki.gg/images/4/40/Giant_Amphipod_Image.png"
     },
     {
       "id": "30",
       "name": "Loosejaw",
       "location": "Stellar Basin",
-      "type": "https://static.wikia.nocookie.net/dredge/images/1/10/TypeBadgeAbyssal.png/revision/latest/scale-to-width-down/100?cb=20221005052230",
+      "type": {
+        "name": "Abyssal",
+        "image": "https://dredge.wiki.gg/images/thumb/1/10/TypeBadgeAbyssal.png/100px-TypeBadgeAbyssal.png"
+      },
       "time": "Any",
       "aberrations": "Perished Loosejaw",
       "valuePerSlot": "$8.33",
       "grid": "2x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/a/aa/Loosejaw.png/revision/latest/scale-to-width-down/150?cb=20230406024044"
+      "image": "https://dredge.wiki.gg/images/e/e1/Loosejaw_Image.png"
     },
     {
       "id": "31",
       "name": "Snailfish",
       "location": "Stellar Basin",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeHadal.png/revision/latest/scale-to-width-down/100?cb=20221005052238",
+      "type": {
+        "name": "Hadal",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeHadal.png/100px-TypeBadgeHadal.png"
+      },
       "time": "Any",
       "aberrations": "Calcified Snailfish, Seizing Snailfish",
       "valuePerSlot": "$13.33",
       "grid": "3x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/b/bc/Snailfish.png/revision/latest/scale-to-width-down/150?cb=20230504173154"
+      "image": "https://dredge.wiki.gg/images/thumb/4/43/Snailfish_Image.png/300px-Snailfish_Image.png"
     },
     {
       "id": "32",
       "name": "Coral Grouper",
       "location": "Stellar Basin",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeShallow.png/revision/latest/scale-to-width-down/100?cb=20221005052212",
+      "type": {
+        "name": "Shallow",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeShallow.png/100px-TypeBadgeShallow.png"
+      },
       "time": "Day",
       "aberrations": "Consumed Grouper",
       "valuePerSlot": "$8.00",
       "grid": "3x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/b/b7/Coral_Grouper.png/revision/latest/scale-to-width-down/150?cb=20230406024011"
+      "image": "https://dredge.wiki.gg/images/thumb/a/a4/Coral_Grouper_Image.png/300px-Coral_Grouper_Image.png"
     },
     {
       "id": "33",
       "name": "Glowing Octopus",
       "location": "Stellar Basin",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeShallow.png/revision/latest/scale-to-width-down/100?cb=20221005052212",
+      "type": {
+        "name": "Shallow",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeShallow.png/100px-TypeBadgeShallow.png"
+      },
       "time": "Night",
       "aberrations": "Medusa Octopus",
       "valuePerSlot": "$10.00",
       "grid": "3x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/1/11/Glowing_Octopus.png/revision/latest/scale-to-width-down/150?cb=20230406024033"
+      "image": "https://dredge.wiki.gg/images/thumb/c/c1/Glowing_Octopus_Image.png/300px-Glowing_Octopus_Image.png"
     },
     {
       "id": "34",
       "name": "Anglerfish",
       "location": "Stellar Basin",
-      "type": "https://static.wikia.nocookie.net/dredge/images/1/10/TypeBadgeAbyssal.png/revision/latest/scale-to-width-down/100?cb=20221005052230",
+      "type": {
+        "name": "Abyssal",
+        "image": "https://dredge.wiki.gg/images/thumb/1/10/TypeBadgeAbyssal.png/100px-TypeBadgeAbyssal.png"
+      },
       "time": "Any",
       "aberrations": "Bursting Anglerfish",
       "valuePerSlot": "$10.00",
       "grid": "3x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/6/64/Anglerfish.png/revision/latest/scale-to-width-down/150?cb=20230406023942"
+      "image": "https://dredge.wiki.gg/images/thumb/d/df/Anglerfish_Image.png/300px-Anglerfish_Image.png"
     },
     {
       "id": "35",
       "name": "Barracuda",
       "location": "Stellar Basin",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeShallow.png/revision/latest/scale-to-width-down/100?cb=20221005052212",
+      "type": {
+        "name": "Shallow",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeShallow.png/100px-TypeBadgeShallow.png"
+      },
       "time": "Day",
       "aberrations": "Savage Barracuda, Concertina Barracuda",
       "valuePerSlot": "$8.75",
       "grid": "4x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/6/62/Barracuda.png/revision/latest/scale-to-width-down/150?cb=20230406023946"
+      "image": "https://dredge.wiki.gg/images/thumb/0/00/Barracuda_Image.png/300px-Barracuda_Image.png"
     },
     {
       "id": "36",
       "name": "Hammerhead Shark",
       "location": "Stellar Basin",
-      "type": "https://static.wikia.nocookie.net/dredge/images/a/ad/TypeBadgeOceanic.png/revision/latest/scale-to-width-down/100?cb=20221005052222",
+      "type": {
+        "name": "Oceanic",
+        "image": "https://dredge.wiki.gg/images/thumb/a/ad/TypeBadgeOceanic.png/100px-TypeBadgeOceanic.png"
+      },
       "time": "Any",
       "aberrations": "Gazing Shark",
       "valuePerSlot": "$19.44",
       "grid": "5x3",
-      "image": "https://static.wikia.nocookie.net/dredge/images/4/4f/Hammerhead_Shark.png/revision/latest/scale-to-width-down/150?cb=20230406024040"
+      "image": "https://dredge.wiki.gg/images/thumb/9/9d/Hammerhead_Shark_Image.png/300px-Hammerhead_Shark_Image.png"
     },
     {
       "id": "37",
       "name": "Crown of Thorns",
       "location": "Stellar Basin",
-      "type": "https://static.wikia.nocookie.net/dredge/images/f/f5/TypeBadgeNone.png/revision/latest/scale-to-width-down/100?cb=20221005052402",
+      "type": {
+        "name": "Crab",
+        "image": "https://dredge.wiki.gg/images/thumb/b/bf/TypeBadgeCrab.png/100px-TypeBadgeCrab.png"
+      },
       "time": "Any",
       "aberrations": "Crown of Nadir",
       "valuePerSlot": "$1.11",
       "grid": "3x3",
-      "image": "https://static.wikia.nocookie.net/dredge/images/d/dd/Crown_of_Thorns.png/revision/latest/scale-to-width-down/150?cb=20230406024012"
+      "image": "https://dredge.wiki.gg/images/thumb/f/f5/Crown_of_Thorns_Image.png/300px-Crown_of_Thorns_Image.png"
     },
     {
       "id": "38",
       "name": "Blue Crab",
       "location": "Stellar Basin",
-      "type": "https://static.wikia.nocookie.net/dredge/images/f/f5/TypeBadgeNone.png/revision/latest/scale-to-width-down/100?cb=20221005052402",
+      "type": {
+        "name": "Crab",
+        "image": "https://dredge.wiki.gg/images/thumb/b/bf/TypeBadgeCrab.png/100px-TypeBadgeCrab.png"
+      },
       "time": "Any",
       "aberrations": "Entangled Crab",
       "valuePerSlot": "$7.50",
       "grid": "2x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/6/65/Blue_Crab.png/revision/latest/scale-to-width-down/150?cb=20230406023956"
+      "image": "https://dredge.wiki.gg/images/5/5b/Blue_Crab_Image.png"
     },
     {
       "id": "39",
       "name": "Spiny Lobster",
       "location": "Stellar Basin",
-      "type": "https://static.wikia.nocookie.net/dredge/images/f/f5/TypeBadgeNone.png/revision/latest/scale-to-width-down/100?cb=20221005052402",
+      "type": {
+        "name": "Crab",
+        "image": "https://dredge.wiki.gg/images/thumb/b/bf/TypeBadgeCrab.png/100px-TypeBadgeCrab.png"
+      },
       "time": "Any",
       "aberrations": "Imperious Lobster",
       "valuePerSlot": "$7.50",
       "grid": "2x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/8/83/Spiny_Lobster.png/revision/latest/scale-to-width-down/150?cb=20230504173220"
+      "image": "https://dredge.wiki.gg/images/0/0a/Spiny_Lobster_Image.png"
     },
     {
       "id": "40",
       "name": "Grey Mullet",
       "location": "Twisted Strand",
-      "type": "https://static.wikia.nocookie.net/dredge/images/3/32/TypeBadgeCoastal.png/revision/latest/scale-to-width-down/100?cb=20221005042201",
+      "type": {
+        "name": "Coastal",
+        "image": "https://dredge.wiki.gg/images/thumb/3/32/TypeBadgeCoastal.png/100px-TypeBadgeCoastal.png"
+      },
       "time": "Any",
       "aberrations": "Entwined Mullet",
       "valuePerSlot": "$7.00",
       "grid": "2x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/d/de/Grey_Mullet.png/revision/latest/scale-to-width-down/150?cb=20230406024037"
+      "image": "https://dredge.wiki.gg/images/1/1d/Grey_Mullet_Image.png"
     },
     {
       "id": "41",
       "name": "Tarpon",
       "location": "Twisted Strand",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeShallow.png/revision/latest/scale-to-width-down/100?cb=20221005052212",
+      "type": {
+        "name": "Shallow",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeShallow.png/100px-TypeBadgeShallow.png"
+      },
       "time": "Any",
       "aberrations": "Blistered Tarpon",
       "valuePerSlot": "$8.33",
       "grid": "3x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/c/ce/Tarpon.png/revision/latest/scale-to-width-down/150?cb=20230504173302"
+      "image": "https://dredge.wiki.gg/images/thumb/7/7c/Tarpon_Image.png/300px-Tarpon_Image.png"
     },
     {
       "id": "42",
       "name": "Sergeant Fish",
       "location": "Twisted Strand",
-      "type": "https://static.wikia.nocookie.net/dredge/images/c/ca/TypeBadgeMangrove.png/revision/latest/scale-to-width-down/100?cb=20221005052254",
+      "type": {
+        "name": "Mangrove",
+        "image": "https://dredge.wiki.gg/images/thumb/c/ca/TypeBadgeMangrove.png/100px-TypeBadgeMangrove.png"
+      },
       "time": "Day",
       "aberrations": "Vortex Interloper",
       "valuePerSlot": "$10.00",
       "grid": "3x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/4/42/Sergeant_Fish.png/revision/latest/scale-to-width-down/150?cb=20230504173107"
+      "image": "https://dredge.wiki.gg/images/thumb/b/b2/Sergeant_Fish_Image.png/300px-Sergeant_Fish_Image.png"
     },
     {
       "id": "43",
       "name": "Gar",
       "location": "Twisted Strand",
-      "type": "https://static.wikia.nocookie.net/dredge/images/c/ca/TypeBadgeMangrove.png/revision/latest/scale-to-width-down/100?cb=20221005052254",
+      "type": {
+        "name": "Mangrove",
+        "image": "https://dredge.wiki.gg/images/thumb/c/ca/TypeBadgeMangrove.png/100px-TypeBadgeMangrove.png"
+      },
       "time": "Day",
       "aberrations": "Clawfin Gar",
       "valuePerSlot": "$10.00",
       "grid": "4x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/c/c6/Gar.png/revision/latest/scale-to-width-down/150?cb=20230406024028"
+      "image": "https://dredge.wiki.gg/images/thumb/7/74/Gar_Image.png/300px-Gar_Image.png"
     },
     {
       "id": "44",
       "name": "Longfin Eel",
       "location": "Twisted Strand",
-      "type": "https://static.wikia.nocookie.net/dredge/images/c/ca/TypeBadgeMangrove.png/revision/latest/scale-to-width-down/100?cb=20221005052254",
+      "type": {
+        "name": "Mangrove",
+        "image": "https://dredge.wiki.gg/images/thumb/c/ca/TypeBadgeMangrove.png/100px-TypeBadgeMangrove.png"
+      },
       "time": "Night",
       "aberrations": "Twinned Eels",
       "valuePerSlot": "$13.00",
       "grid": "3x3",
-      "image": "https://static.wikia.nocookie.net/dredge/images/9/9d/Longfin_Eel.png/revision/latest/scale-to-width-down/150?cb=20230406024043"
+      "image": "https://dredge.wiki.gg/images/thumb/5/52/Longfin_Eel_Image.png/300px-Longfin_Eel_Image.png"
     },
     {
       "id": "45",
       "name": "Catfish",
       "location": "Twisted Strand",
-      "type": "https://static.wikia.nocookie.net/dredge/images/c/ca/TypeBadgeMangrove.png/revision/latest/scale-to-width-down/100?cb=20221005052254",
+      "type": {
+        "name": "Mangrove",
+        "image": "https://dredge.wiki.gg/images/thumb/c/ca/TypeBadgeMangrove.png/100px-TypeBadgeMangrove.png"
+      },
       "time": "Night",
       "aberrations": "Nightwing Catfish",
       "valuePerSlot": "$11.67",
       "grid": "3x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/9/99/Catfish.png/revision/latest/scale-to-width-down/150?cb=20230406024002"
+      "image": "https://dredge.wiki.gg/images/thumb/7/7f/Catfish_Image.png/300px-Catfish_Image.png"
     },
     {
       "id": "46",
       "name": "Horseshoe Crab",
       "location": "Twisted Strand",
-      "type": "https://static.wikia.nocookie.net/dredge/images/f/f5/TypeBadgeNone.png/revision/latest/scale-to-width-down/100?cb=20221005052402",
+      "type": {
+        "name": "Crab",
+        "image": "https://dredge.wiki.gg/images/thumb/b/bf/TypeBadgeCrab.png/100px-TypeBadgeCrab.png"
+      },
       "time": "Any",
       "aberrations": "Effigy Crab",
       "valuePerSlot": "$6.25",
       "grid": "2x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/c/c4/Horseshoe_Crab.png/revision/latest/scale-to-width-down/150?cb=20230406024041"
+      "image": "https://dredge.wiki.gg/images/1/1b/Horseshoe_Crab_Image.png"
     },
     {
       "id": "47",
       "name": "Giant Mud Crab",
       "location": "Twisted Strand",
-      "type": "https://static.wikia.nocookie.net/dredge/images/f/f5/TypeBadgeNone.png/revision/latest/scale-to-width-down/100?cb=20221005052402",
+      "type": {
+        "name": "Crab",
+        "image": "https://dredge.wiki.gg/images/thumb/b/bf/TypeBadgeCrab.png/100px-TypeBadgeCrab.png"
+      },
       "time": "Any",
       "aberrations": "Mire Screecher",
       "valuePerSlot": "$8.33",
       "grid": "3x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/b/b6/Giant_Mud_Crab.png/revision/latest/scale-to-width-down/150?cb=20230406024032"
+      "image": "https://dredge.wiki.gg/images/thumb/a/af/Giant_Mud_Crab_Image.png/300px-Giant_Mud_Crab_Image.png"
     },
     {
       "id": "48",
       "name": "Armored Searobin",
       "location": "Devil's Spine",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeShallow.png/revision/latest/scale-to-width-down/100?cb=20221005052212",
+      "type": {
+        "name": "Shallow",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeShallow.png/100px-TypeBadgeShallow.png"
+      },
       "time": "Day",
       "aberrations": "Ossified Searobin",
       "valuePerSlot": "$7.33",
       "grid": "2x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/f/f9/Armored_Searobin.png/revision/latest/scale-to-width-down/150?cb=20230406023943"
+      "image": "https://dredge.wiki.gg/images/d/d6/Armored_Searobin_Image.png"
     },
     {
       "id": "49",
       "name": "Cusk Eel",
       "location": "Devil's Spine",
-      "type": "https://static.wikia.nocookie.net/dredge/images/1/1c/TypeBadgeVolcanic.png/revision/latest/scale-to-width-down/100?cb=20221005052246",
+      "type": {
+        "name": "Volcanic",
+        "image": "https://dredge.wiki.gg/images/thumb/1/1c/TypeBadgeVolcanic.png/100px-TypeBadgeVolcanic.png"
+      },
       "time": "Night",
       "aberrations": "Infernal Eel",
       "valuePerSlot": "$10.00",
       "grid": "3x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/b/b6/Cusk_Eel.png/revision/latest/scale-to-width-down/150?cb=20230406024014"
+      "image": "https://dredge.wiki.gg/images/thumb/c/c9/Cusk_Eel_Image.png/300px-Cusk_Eel_Image.png"
     },
     {
       "id": "50",
       "name": "Snake Mackerel",
       "location": "Devil's Spine",
-      "type": "https://static.wikia.nocookie.net/dredge/images/3/32/TypeBadgeCoastal.png/revision/latest/scale-to-width-down/100?cb=20221005042201",
+      "type": {
+        "name": "Coastal",
+        "image": "https://dredge.wiki.gg/images/thumb/3/32/TypeBadgeCoastal.png/100px-TypeBadgeCoastal.png"
+      },
       "time": "Any",
       "aberrations": "Serpentine Mackerel",
       "valuePerSlot": "$7.33",
       "grid": "3x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/6/6e/Snake_Mackerel.png/revision/latest/scale-to-width-down/150?cb=20230504173203"
+      "image": "https://dredge.wiki.gg/images/thumb/4/40/Snake_Mackerel_Image.png/300px-Snake_Mackerel_Image.png"
     },
     {
       "id": "51",
       "name": "Pale Skate",
       "location": "Devil's Spine",
-      "type": "https://static.wikia.nocookie.net/dredge/images/1/1c/TypeBadgeVolcanic.png/revision/latest/scale-to-width-down/100?cb=20221005052246",
+      "type": {
+        "name": "Volcanic",
+        "image": "https://dredge.wiki.gg/images/thumb/1/1c/TypeBadgeVolcanic.png/100px-TypeBadgeVolcanic.png"
+      },
       "time": "Day",
       "aberrations": "Defaced Skate",
       "valuePerSlot": "$11.00",
       "grid": "2x3",
-      "image": "https://static.wikia.nocookie.net/dredge/images/9/9f/Pale_Skate.png/revision/latest/scale-to-width-down/150?cb=20230504173018"
+      "image": "https://dredge.wiki.gg/images/b/b2/Pale_Skate_Image.png"
     },
     {
       "id": "52",
       "name": "Ghost Shark",
       "location": "Devil's Spine",
-      "type": "https://static.wikia.nocookie.net/dredge/images/1/10/TypeBadgeAbyssal.png/revision/latest/scale-to-width-down/100?cb=20221005052230",
+      "type": {
+        "name": "Abyssal",
+        "image": "https://dredge.wiki.gg/images/thumb/1/10/TypeBadgeAbyssal.png/100px-TypeBadgeAbyssal.png"
+      },
       "time": "Any",
       "aberrations": "Rapt Shark",
       "valuePerSlot": "$12.50",
       "grid": "3x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/3/32/Ghost_Shark.png/revision/latest/scale-to-width-down/150?cb=20230406024031"
+      "image": "https://dredge.wiki.gg/images/thumb/e/ef/Ghost_Shark_Image.png/300px-Ghost_Shark_Image.png"
     },
     {
       "id": "53",
       "name": "Frilled Shark",
       "location": "Devil's Spine",
-      "type": "https://static.wikia.nocookie.net/dredge/images/1/1c/TypeBadgeVolcanic.png/revision/latest/scale-to-width-down/100?cb=20221005052246",
+      "type": {
+        "name": "Volcanic",
+        "image": "https://dredge.wiki.gg/images/thumb/1/1c/TypeBadgeVolcanic.png/100px-TypeBadgeVolcanic.png"
+      },
       "time": "Any",
       "aberrations": "Twisted Shark",
       "valuePerSlot": "$20.83",
       "grid": "5x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/a/af/Frilled_Shark.png/revision/latest/scale-to-width-down/150?cb=20230406024027"
+      "image": "https://dredge.wiki.gg/images/thumb/5/5c/Frilled_Shark_Image.png/300px-Frilled_Shark_Image.png"
     },
     {
       "id": "54",
       "name": "Volcano Snail",
       "location": "Devil's Spine",
-      "type": "https://static.wikia.nocookie.net/dredge/images/f/f5/TypeBadgeNone.png/revision/latest/scale-to-width-down/100?cb=20221005052402",
+      "type": {
+        "name": "Crab",
+        "image": "https://dredge.wiki.gg/images/thumb/b/bf/TypeBadgeCrab.png/100px-TypeBadgeCrab.png"
+      },
       "time": "Any",
       "aberrations": "Grasping Snail",
       "valuePerSlot": "$6.75",
       "grid": "2x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/2/2d/Volcano_Snail.png/revision/latest/scale-to-width-down/150?cb=20230504173320"
+      "image": "https://dredge.wiki.gg/images/c/c2/Volcano_Snail_Image.png"
     },
     {
       "id": "55",
       "name": "Squat Lobster",
       "location": "Devil's Spine",
-      "type": "https://static.wikia.nocookie.net/dredge/images/f/f5/TypeBadgeNone.png/revision/latest/scale-to-width-down/100?cb=20221005052402",
+      "type": {
+        "name": "Crab",
+        "image": "https://dredge.wiki.gg/images/thumb/b/bf/TypeBadgeCrab.png/100px-TypeBadgeCrab.png"
+      },
       "time": "Any",
       "aberrations": "Sable Reacher",
       "valuePerSlot": "$9.00",
       "grid": "3x3",
-      "image": "https://static.wikia.nocookie.net/dredge/images/8/85/Squat_Lobster.png/revision/latest/scale-to-width-down/150?cb=20230504173235"
+      "image": "https://dredge.wiki.gg/images/thumb/b/b0/Squat_Lobster_Image.png/300px-Squat_Lobster_Image.png"
     },
     {
       "id": "56",
       "name": "Spider Crab",
       "location": "Devil's Spine",
-      "type": "https://static.wikia.nocookie.net/dredge/images/f/f5/TypeBadgeNone.png/revision/latest/scale-to-width-down/100?cb=20221005052402",
+      "type": {
+        "name": "Crab",
+        "image": "https://dredge.wiki.gg/images/thumb/b/bf/TypeBadgeCrab.png/100px-TypeBadgeCrab.png"
+      },
       "time": "Any",
       "aberrations": "Umbral Puppet",
       "valuePerSlot": "$11.43",
       "grid": "3x3",
-      "image": "https://static.wikia.nocookie.net/dredge/images/c/c7/Spider_Crab.png/revision/latest/scale-to-width-down/150?cb=20230504173209"
+      "image": "https://dredge.wiki.gg/images/thumb/e/ed/Spider_Crab_Image.png/300px-Spider_Crab_Image.png"
     },
     {
       "id": "57",
       "name": "Anchovy",
       "location": "Open Ocean",
-      "type": "https://static.wikia.nocookie.net/dredge/images/a/ad/TypeBadgeOceanic.png/revision/latest/scale-to-width-down/100?cb=20221005052222",
+      "type": {
+        "name": "Oceanic",
+        "image": "https://dredge.wiki.gg/images/thumb/a/ad/TypeBadgeOceanic.png/100px-TypeBadgeOceanic.png"
+      },
       "time": "Any",
       "aberrations": "Anchovy King",
       "valuePerSlot": "$6.50",
       "grid": "1x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/7/79/Anchovy.png/revision/latest?cb=20230406023941"
+      "image": "https://dredge.wiki.gg/images/a/ae/Anchovy_Image.png"
     },
     {
       "id": "58",
       "name": "Scarlet Prawn",
       "location": "Open Ocean",
-      "type": "https://static.wikia.nocookie.net/dredge/images/a/ad/TypeBadgeOceanic.png/revision/latest/scale-to-width-down/100?cb=20221005052222",
+      "type": {
+        "name": "Oceanic",
+        "image": "https://dredge.wiki.gg/images/thumb/a/ad/TypeBadgeOceanic.png/100px-TypeBadgeOceanic.png"
+      },
       "time": "Any",
       "aberrations": "Leeching Prawn",
       "valuePerSlot": "$7.00",
       "grid": "1x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/8/8e/Scarlet_Prawn.png/revision/latest?cb=20230504173101"
+      "image": "https://dredge.wiki.gg/images/8/88/Scarlet_Prawn_Image.png"
     },
     {
       "id": "59",
       "name": "Blackfin Tuna",
       "location": "Open Ocean",
-      "type": "https://static.wikia.nocookie.net/dredge/images/a/ad/TypeBadgeOceanic.png/revision/latest/scale-to-width-down/100?cb=20221005052222",
+      "type": {
+        "name": "Oceanic",
+        "image": "https://dredge.wiki.gg/images/thumb/a/ad/TypeBadgeOceanic.png/100px-TypeBadgeOceanic.png"
+      },
       "time": "Any",
       "aberrations": "Razormouth Tuna",
       "valuePerSlot": "$10.00",
       "grid": "2x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/5/5f/Blackfin_Tuna.png/revision/latest/scale-to-width-down/150?cb=20230406023951"
+      "image": "https://dredge.wiki.gg/images/7/7d/Blackfin_Tuna_Image.png"
     },
     {
       "id": "60",
       "name": "Viperfish",
       "location": "Open Ocean",
-      "type": "https://static.wikia.nocookie.net/dredge/images/1/10/TypeBadgeAbyssal.png/revision/latest/scale-to-width-down/100?cb=20221005052230",
+      "type": {
+        "name": "Abyssal",
+        "image": "https://dredge.wiki.gg/images/thumb/1/10/TypeBadgeAbyssal.png/100px-TypeBadgeAbyssal.png"
+      },
       "time": "Any",
       "aberrations": "Decrepit Viperfish, Collapsed Viperfish",
       "valuePerSlot": "$8.00",
       "grid": "3x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/c/c2/Viperfish.png/revision/latest/scale-to-width-down/150?cb=20230504173315"
+      "image": "https://dredge.wiki.gg/images/thumb/6/6e/Viperfish_Image.png/300px-Viperfish_Image.png"
     },
     {
       "id": "61",
       "name": "Moonfish",
       "location": "Open Ocean",
-      "type": "https://static.wikia.nocookie.net/dredge/images/a/ad/TypeBadgeOceanic.png/revision/latest/scale-to-width-down/100?cb=20221005052222",
+      "type": {
+        "name": "Oceanic",
+        "image": "https://dredge.wiki.gg/images/thumb/a/ad/TypeBadgeOceanic.png/100px-TypeBadgeOceanic.png"
+      },
       "time": "Night",
       "aberrations": "Skeletal Moonfish, Beaked Moonfish",
       "valuePerSlot": "$11.25",
       "grid": "2x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/3/39/Moonfish.png/revision/latest/scale-to-width-down/150?cb=20230406024048"
+      "image": "https://dredge.wiki.gg/images/0/08/Moonfish_Image.png"
     },
     {
       "id": "62",
       "name": "Rattail",
       "location": "Open Ocean",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeHadal.png/revision/latest/scale-to-width-down/100?cb=20221005052238",
+      "type": {
+        "name": "Hadal",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeHadal.png/100px-TypeBadgeHadal.png"
+      },
       "time": "Any",
       "aberrations": "Congealed Rattail",
       "valuePerSlot": "$12.00",
       "grid": "3x3",
-      "image": "https://static.wikia.nocookie.net/dredge/images/1/14/Rattail.png/revision/latest/scale-to-width-down/150?cb=20230504173025"
+      "image": "https://dredge.wiki.gg/images/thumb/b/b9/Rattail_Image.png/300px-Rattail_Image.png"
     },
     {
       "id": "63",
       "name": "Ocean Sunfish",
       "location": "Open Ocean",
-      "type": "https://static.wikia.nocookie.net/dredge/images/a/ad/TypeBadgeOceanic.png/revision/latest/scale-to-width-down/100?cb=20221005052222",
+      "type": {
+        "name": "Oceanic",
+        "image": "https://dredge.wiki.gg/images/thumb/a/ad/TypeBadgeOceanic.png/100px-TypeBadgeOceanic.png"
+      },
       "time": "Day",
       "aberrations": "Charred Sunfish, Glaring Sunfish",
       "valuePerSlot": "$12.78",
       "grid": "3x3",
-      "image": "https://static.wikia.nocookie.net/dredge/images/2/21/Ocean_Sunfish.png/revision/latest/scale-to-width-down/150?cb=20230504173002"
+      "image": "https://dredge.wiki.gg/images/thumb/4/43/Ocean_Sunfish_Image.png/300px-Ocean_Sunfish_Image.png"
     },
     {
       "id": "64",
       "name": "Icefish",
       "location": "The Pale Reach",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeIce.png/revision/latest/scale-to-width-down/100?cb=20231118193614",
+      "type": {
+        "name": "Ice",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeIce.png/100px-TypeBadgeIce.png"
+      },
       "time": "Any",
       "aberrations": "Fractalline Icefish, Thawed Icefish, Astral Icefish",
       "valuePerSlot": "$6.50",
       "grid": "2x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/c/ca/Icefish.png/revision/latest/scale-to-width-down/150?cb=20231118194823"
+      "image": "https://dredge.wiki.gg/images/4/42/Icefish_Image.png"
     },
     {
       "id": "65",
       "name": "Char",
       "location": "The Pale Reach",
-      "type": "https://static.wikia.nocookie.net/dredge/images/3/32/TypeBadgeCoastal.png/revision/latest/scale-to-width-down/100?cb=20221005042201",
+      "type": {
+        "name": "Coastal",
+        "image": "https://dredge.wiki.gg/images/thumb/3/32/TypeBadgeCoastal.png/100px-TypeBadgeCoastal.png"
+      },
       "time": "Any",
       "aberrations": "Bubbling Char",
       "valuePerSlot": "$6.00",
       "grid": "2x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/d/d2/Char.png/revision/latest/scale-to-width-down/150?cb=20231118195132"
+      "image": "https://dredge.wiki.gg/images/e/e9/Char_Image.png"
     },
     {
       "id": "66",
       "name": "Wolffish",
       "location": "The Pale Reach",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeIce.png/revision/latest/scale-to-width-down/100?cb=20231118193614",
+      "type": {
+        "name": "Ice",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeIce.png/100px-TypeBadgeIce.png"
+      },
       "time": "Night",
       "aberrations": "Hinged Wolffish",
       "valuePerSlot": "$8.33",
       "grid": "3x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/0/02/Wolffish.png/revision/latest/scale-to-width-down/150?cb=20231118194810"
+      "image": "https://dredge.wiki.gg/images/thumb/b/bc/Wolffish_Image.png/300px-Wolffish_Image.png"
     },
     {
       "id": "67",
       "name": "Stargazer",
       "location": "The Pale Reach",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeIce.png/revision/latest/scale-to-width-down/100?cb=20231118193614",
+      "type": {
+        "name": "Ice",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeIce.png/100px-TypeBadgeIce.png"
+      },
       "time": "Any",
       "aberrations": "Craterous Seer",
       "valuePerSlot": "$8.75",
       "grid": "2x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/2/2b/Stargazer.png/revision/latest/scale-to-width-down/150?cb=20231118194804"
+      "image": "https://dredge.wiki.gg/images/2/27/Stargazer_Image.png"
     },
     {
       "id": "68",
       "name": "Lizardfish",
       "location": "The Pale Reach",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeIce.png/revision/latest/scale-to-width-down/100?cb=20231118193614",
+      "type": {
+        "name": "Ice",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeIce.png/100px-TypeBadgeIce.png"
+      },
       "time": "Any",
       "aberrations": "Feral Lizardfish",
       "valuePerSlot": "$9.00",
       "grid": "2x3",
-      "image": "https://static.wikia.nocookie.net/dredge/images/c/c3/Lizardfish.png/revision/latest/scale-to-width-down/150?cb=20231118194759"
+      "image": "https://dredge.wiki.gg/images/4/47/Lizardfish_Image.png"
     },
     {
       "id": "69",
       "name": "Toothfish",
       "location": "The Pale Reach",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeIce.png/revision/latest/scale-to-width-down/100?cb=20231118193614",
+      "type": {
+        "name": "Ice",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeIce.png/100px-TypeBadgeIce.png"
+      },
       "time": "Any",
       "aberrations": "Bulbous Toothfish",
       "valuePerSlot": "$10.00",
       "grid": "3x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/5/55/Toothfish.png/revision/latest/scale-to-width-down/150?cb=20231118194751"
+      "image": "https://dredge.wiki.gg/images/thumb/a/a1/Toothfish_Image.png/300px-Toothfish_Image.png"
     },
     {
       "id": "70",
       "name": "Goblin Shark",
       "location": "The Pale Reach",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeIce.png/revision/latest/scale-to-width-down/100?cb=20231118193614",
+      "type": {
+        "name": "Ice",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeIce.png/100px-TypeBadgeIce.png"
+      },
       "time": "Any",
       "aberrations": "Grisly Shark",
       "valuePerSlot": "$15.00",
       "grid": "4x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/1/13/Goblin_Shark.png/revision/latest/scale-to-width-down/150?cb=20231118194746"
+      "image": "https://dredge.wiki.gg/images/thumb/0/08/Goblin_Shark_Image.png/300px-Goblin_Shark_Image.png"
     },
     {
       "id": "71",
       "name": "Colossal Squid",
       "location": "The Pale Reach",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeIce.png/revision/latest/scale-to-width-down/100?cb=20231118193614",
+      "type": {
+        "name": "Ice",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeIce.png/100px-TypeBadgeIce.png"
+      },
       "time": "Any",
       "aberrations": "Pale Grasper",
       "valuePerSlot": "$18.18",
       "grid": "5x3",
-      "image": "https://static.wikia.nocookie.net/dredge/images/7/72/Colossal_Squid.png/revision/latest/scale-to-width-down/150?cb=20231118194741"
+      "image": "https://dredge.wiki.gg/images/thumb/9/90/Colossal_Squid_Image.png/300px-Colossal_Squid_Image.png"
     },
     {
       "id": "72",
       "name": "Sea Stars",
       "location": "The Pale Reach",
-      "type": "https://static.wikia.nocookie.net/dredge/images/f/f5/TypeBadgeNone.png/revision/latest/scale-to-width-down/100?cb=20221005052402",
+      "type": {
+        "name": "Crab",
+        "image": "https://dredge.wiki.gg/images/thumb/b/bf/TypeBadgeCrab.png/100px-TypeBadgeCrab.png"
+      },
       "time": "Any",
       "aberrations": "Fallen Stars",
       "valuePerSlot": "$6.00",
       "grid": "2x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/a/a7/Sea_Stars.png/revision/latest?cb=20231118194735"
+      "image": "https://dredge.wiki.gg/images/b/b9/Sea_Stars_Image.png"
     },
     {
       "id": "73",
       "name": "King Crab",
       "location": "The Pale Reach",
-      "type": "https://static.wikia.nocookie.net/dredge/images/f/f5/TypeBadgeNone.png/revision/latest/scale-to-width-down/100?cb=20221005052402",
+      "type": {
+        "name": "Crab",
+        "image": "https://dredge.wiki.gg/images/thumb/b/bf/TypeBadgeCrab.png/100px-TypeBadgeCrab.png"
+      },
       "time": "Any",
       "aberrations": "King's Wreath",
       "valuePerSlot": "$8.75",
       "grid": "2x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/b/b1/King_Crab.png/revision/latest/scale-to-width-down/150?cb=20231118194724"
+      "image": "https://dredge.wiki.gg/images/e/e1/King_Crab_Image.png"
     },
     {
       "id": "74",
       "name": "Oarfish",
       "location": "Gale Cliffs",
-      "type": "https://static.wikia.nocookie.net/dredge/images/1/10/TypeBadgeAbyssal.png/revision/latest/scale-to-width-down/100?cb=20221005052230",
+      "type": {
+        "name": "Abyssal",
+        "image": "https://dredge.wiki.gg/images/thumb/1/10/TypeBadgeAbyssal.png/100px-TypeBadgeAbyssal.png"
+      },
       "time": "Any",
       "aberrations": "N/A",
       "valuePerSlot": "$35.71",
       "grid": "6x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/6/6b/Oarfish.png/revision/latest/scale-to-width-down/150?cb=20230504172929"
+      "image": "https://dredge.wiki.gg/images/thumb/6/63/Oarfish_Image.png/300px-Oarfish_Image.png"
     },
     {
       "id": "75",
       "name": "Gulper Eel",
       "location": "Stellar Basin",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeHadal.png/revision/latest/scale-to-width-down/100?cb=20221005052238",
+      "type": {
+        "name": "Hadal",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeHadal.png/100px-TypeBadgeHadal.png"
+      },
       "time": "Any",
       "aberrations": "N/A",
       "valuePerSlot": "$35.71",
       "grid": "4x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/c/cd/Gulper_Eel.png/revision/latest/scale-to-width-down/150?cb=20230406024039"
+      "image": "https://dredge.wiki.gg/images/thumb/9/97/Gulper_Eel_Image.png/300px-Gulper_Eel_Image.png"
     },
     {
       "id": "76",
       "name": "Goliath Tigerfish",
       "location": "Twisted Strand",
-      "type": "https://static.wikia.nocookie.net/dredge/images/c/ca/TypeBadgeMangrove.png/revision/latest/scale-to-width-down/100?cb=20221005052254",
+      "type": {
+        "name": "Mangrove",
+        "image": "https://dredge.wiki.gg/images/thumb/c/ca/TypeBadgeMangrove.png/100px-TypeBadgeMangrove.png"
+      },
       "time": "Any",
       "aberrations": "N/A",
       "valuePerSlot": "$31.25",
       "grid": "4x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/d/da/Goliath_Tigerfish.png/revision/latest/scale-to-width-down/150?cb=20230406024035"
+      "image": "https://dredge.wiki.gg/images/thumb/4/43/Goliath_Tigerfish_Image.png/300px-Goliath_Tigerfish_Image.png"
     },
     {
       "id": "77",
       "name": "Coelacanth",
       "location": "Devil's Spine",
-      "type": "https://static.wikia.nocookie.net/dredge/images/1/10/TypeBadgeAbyssal.png/revision/latest/scale-to-width-down/100?cb=20221005052230",
+      "type": {
+        "name": "Abyssal",
+        "image": "https://dredge.wiki.gg/images/thumb/1/10/TypeBadgeAbyssal.png/100px-TypeBadgeAbyssal.png"
+      },
       "time": "Any",
       "aberrations": "N/A",
       "valuePerSlot": "$35.71",
       "grid": "5x2",
-      "image": "https://static.wikia.nocookie.net/dredge/images/4/4b/Coelacanth.png/revision/latest/scale-to-width-down/150?cb=20230406024006"
+      "image": "https://dredge.wiki.gg/images/thumb/8/8c/Coelacanth_Image.png/300px-Coelacanth_Image.png"
     },
     {
       "id": "78",
       "name": "Sleeper Shark",
       "location": "The Pale Reach",
-      "type": "https://static.wikia.nocookie.net/dredge/images/6/6d/TypeBadgeIce.png/revision/latest/scale-to-width-down/100?cb=20231118193614",
+      "type": {
+        "name": "Ice",
+        "image": "https://dredge.wiki.gg/images/thumb/6/6d/TypeBadgeIce.png/100px-TypeBadgeIce.png"
+      },
       "time": "Any",
       "aberrations": "N/A",
       "valuePerSlot": "$50.00",
       "grid": "5x1",
-      "image": "https://static.wikia.nocookie.net/dredge/images/7/76/Sleeper_Shark.png/revision/latest/scale-to-width-down/150?cb=20231118194936"
+      "image": "https://dredge.wiki.gg/images/thumb/6/6a/Sleeper_Shark_Image.png/300px-Sleeper_Shark_Image.png"
     }
   ]
 }
