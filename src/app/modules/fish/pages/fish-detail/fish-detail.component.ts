@@ -18,6 +18,8 @@ export class FishDetailComponent implements OnInit {
 
   ngOnInit(): void {
     const id = this.route.snapshot.paramMap.get('id'); // El id ya es un string desde la URL
+    const name = this.route.snapshot.paramMap.get('name');
+
     if (id) {
       this.fishService.getFishById(id).subscribe(
         (fish) => {
@@ -26,6 +28,17 @@ export class FishDetailComponent implements OnInit {
         },
         (error) => {
           console.error('Error al obtener el pez', error);
+        }
+      );
+    } else if (name) {
+      // Buscar por nombre
+      this.fishService.getFishByName(name).subscribe(
+        (fish) => {
+          this.pescado = fish;
+          console.log('Pez encontrado por nombre:', this.pescado);
+        },
+        (error) => {
+          console.error('Error al obtener el pez por nombre', error);
         }
       );
     }

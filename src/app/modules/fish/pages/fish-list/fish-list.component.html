@@ -1,7 +1,25 @@
-<div class="container mt-5">
-  <div class="d-flex justify-content-center">
-    <input type="text" class="form-control w-25 shadow bg-info text-center" placeholder="Introduce pez">
+<div class="bg-secondary p-2 filtros">
+  <div class="d-flex justify-content-between">
+    <button
+      class="btn btn-outline-light"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#filtersCollapse"
+      aria-expanded="false"
+      aria-controls="filtersCollapse"
+    >
+      Filters
+    </button>
+
+    <app-fish-searcher></app-fish-searcher>
   </div>
+
+  <div class="collapse mt-3" id="filtersCollapse">
+    <app-fish-filters></app-fish-filters>
+  </div>
+</div>
+
+<div class="container mt-5">
   <div class="row">
     <app-fish-card
       *ngFor="let pescao of fish"

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FishDatum, IFish } from 'src/app/core/models/IFish.model';
+import { FishDatum } from 'src/app/core/models/IFish.model';
 import { FishServiceService } from 'src/app/services/fish/fish-service.service';
 
 @Component({

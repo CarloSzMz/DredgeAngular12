@@ -1,0 +1,154 @@
+<div class="container p-2">
+  <form class="bg-secondary-subtle p-3 rounded" (ngSubmit)="sendFilters()">
+    <div class="row">
+      <!-- Location filter -->
+      <div class="col-md-4 form-group p-2" style="border-right: 2px solid #ccc">
+        <strong>Location:</strong>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            name="locations"
+            value="The Marrows"
+            [(ngModel)]="selectedLocations['The Marrows']"
+          />
+          <label class="form-check-label">The Marrows</label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            name="locations"
+            value="Gale Cliffs"
+            [(ngModel)]="selectedLocations['Gale Cliffs']"
+          />
+          <label class="form-check-label">Gale Cliffs</label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            name="locations"
+            value="Open Ocean"
+            [(ngModel)]="selectedLocations['Open Ocean']"
+          />
+          <label class="form-check-label">Open Ocean</label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            name="locations"
+            value="Stellar Basin"
+            [(ngModel)]="selectedLocations['Stellar Basin']"
+          />
+          <label class="form-check-label">Stellar Basin</label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            name="locations"
+            value="Devil's Spine"
+            [(ngModel)]="selectedLocations['Devil\'s Spine']"
+          />
+          <label class="form-check-label">Devil's Spine</label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            name="locations"
+            value="The Pale Reach"
+            [(ngModel)]="selectedLocations['The Pale Reach']"
+          />
+          <label class="form-check-label">Pale Reach</label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            name="locations"
+            value="Twisted Strand"
+            [(ngModel)]="selectedLocations['Twisted Strand']"
+          />
+          <label class="form-check-label">Twisted Strand</label>
+        </div>
+      </div>
+
+      <!-- Time filter -->
+      <div class="col-md-4 form-group p-2" style="border-right: 2px solid #ccc">
+        <strong>Time:</strong>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            name="times"
+            value="Day"
+            [(ngModel)]="selectedTimes['Day']"
+          />
+          <label class="form-check-label">Day</label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            name="times"
+            value="Night"
+            [(ngModel)]="selectedTimes['Night']"
+          />
+          <label class="form-check-label">Night</label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            name="times"
+            value="Any"
+            [(ngModel)]="selectedTimes['Any']"
+          />
+          <label class="form-check-label">Any</label>
+        </div>
+      </div>
+
+      <!-- Capture Method filter -->
+      <div class="col-md-4 form-group p-2">
+        <strong>Capture:</strong>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            name="captureMethods"
+            value="rod"
+            [(ngModel)]="selectedCaptureMethods['rod']"
+          />
+          <label class="form-check-label">Rod</label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            name="captureMethods"
+            value="trawl"
+            [(ngModel)]="selectedCaptureMethods['trawl']"
+          />
+          <label class="form-check-label">Trawl</label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            name="captureMethods"
+            value="pot"
+            [(ngModel)]="selectedCaptureMethods['pot']"
+          />
+          <label class="form-check-label">Pot</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-3">
+      <button class="btn btn-info" type="submit">Filter</button>
+    </div>
+  </form>
+</div>

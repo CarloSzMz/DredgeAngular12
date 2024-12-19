@@ -1,1 +1,7 @@
-<p>fish-searcher works!</p>
+<input
+  type="text"
+  class="form-control shadow bg-info text-center"
+  placeholder="Buscar Pez"
+  [(ngModel)]="fishName"
+  (keyup.enter)="searchFish()"
+/>
