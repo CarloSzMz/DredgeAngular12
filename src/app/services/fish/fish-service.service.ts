@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { BehaviorSubject, Observable } from 'rxjs';
 import {
   CaptureMethods,
   FishDatum,
@@ -14,6 +14,8 @@ import { map } from 'rxjs/operators';
 })
 export class FishServiceService {
   private url: string = 'assets/data/fishData.json';
+  private filteredFishSubject = new BehaviorSubject<FishDatum[]>([]); // Para manejar la lista filtrada
+  filteredFish$ = this.filteredFishSubject.asObservable(); // Observable para suscribirse
 
   constructor(private httpClient: HttpClient) {}
 
@@ -41,33 +43,36 @@ export class FishServiceService {
     );
   }
 
+  setFilteredFish(fishData: FishDatum[]): void {
+    this.filteredFishSubject.next(fishData); // Actualiza la lista filtrada
+  }
+
   filterFish(
     fishData: FishDatum[],
     selectedLocations: string[],
     selectedTimes: string[],
-    selectedCaptureMethods: string[] // Ahora pasamos estos valores directamente
+    selectedCaptureMethods: string[]
   ): FishDatum[] {
-    return fishData.filter((fish) => {
-      // Filtrar por ubicación
+    const filtered = fishData.filter((fish) => {
       const locationMatches =
         selectedLocations.length === 0 ||
         selectedLocations.includes(fish.location);
-
-      // Filtrar por tiempo
       const timeMatches =
         selectedTimes.length === 0 || selectedTimes.includes(fish.time);
-
-      // Filtrar por método de captura
       const captureMatches =
         selectedCaptureMethods.length === 0 ||
-        selectedCaptureMethods.some((method) => {
-          // Comprobamos si el método de captura seleccionado es "yes" en el objeto captureMethods
-          return (
+        selectedCaptureMethods.some(
+          (method) =>
             fish.captureMethods[method as keyof CaptureMethods] === Pot.Yes
-          );
-        });
+        );
 
       return locationMatches && timeMatches && captureMatches;
     });
+
+    // Actualizamos la lista filtrada
+    this.setFilteredFish(filtered);
+    console.log(filtered);
+
+    return filtered;
   }
 }

@@ -7,48 +7,28 @@ import { FishServiceService } from 'src/app/services/fish/fish-service.service';
   templateUrl: './fish-filters.component.html',
   styleUrls: ['./fish-filters.component.css'],
 })
-export class FishFiltersComponent implements OnInit {
-  fishData: FishDatum[] = [];
-  filteredFish: FishDatum[] = [];
+export class FishFiltersComponent {
+  // Listas de opciones (pueden venir del servicio o ser estáticas)
+  locationsList = [
+    'The Marrows',
+    'Gale Cliffs',
+    'Open Ocean',
+    'Stellar Basin',
+    "Devil's Spine",
+    'The Pale Reach',
+    'Twisted Strand',
+  ];
+  timeList = ['Day', 'Night', 'Any'];
+  captureMethodsList = ['rod', 'trawl', 'pot'];
 
-  selectedLocations: { [key: string]: boolean } = {
-    'The Marrows': false,
-    'Gale Cliffs': false,
-    'Open Ocean': false,
-    'Stellar Basin': false,
-    "Devil's Spine": false,
-    'Pale Reach': false,
-    'Twisted Strand': false,
-  };
-
-  selectedTimes: { [key: string]: boolean } = {
-    Day: false,
-    Night: false,
-    Any: false,
-  };
-
-  selectedCaptureMethods: { [key: string]: boolean } = {
-    rod: false,
-    trawl: false,
-    pot: false,
-  };
-
-  times: string[] = ['Day', 'Night', 'Any'];
-
-  captureMethods: string[] = ['rod', 'trawl', 'pot'];
+  selectedLocations: { [key: string]: boolean } = {};
+  selectedTimes: { [key: string]: boolean } = {};
+  selectedCaptureMethods: { [key: string]: boolean } = {};
 
   constructor(private fishService: FishServiceService) {}
 
-  ngOnInit(): void {
-    this.fishService.getAllFish().subscribe((data) => {
-      this.fishData = data.fishData;
-      this.filteredFish = this.fishData; // Inicialmente no se filtra nada
-    });
-  }
-
-  // Handler for form submission
-  sendFilters(): void {
-    // Obtener las ubicaciones, tiempos y métodos de captura seleccionados
+  sendFilters() {
+    // Filtrar las ubicaciones, tiempos y métodos de captura seleccionados
     const selectedLocations = Object.keys(this.selectedLocations).filter(
       (location) => this.selectedLocations[location]
     );
@@ -59,15 +39,14 @@ export class FishFiltersComponent implements OnInit {
       this.selectedCaptureMethods
     ).filter((method) => this.selectedCaptureMethods[method]);
 
-    // Filtrar los peces según los filtros seleccionados
-    this.filteredFish = this.fishService.filterFish(
-      this.fishData,
-      selectedLocations,
-      selectedTimes,
-      selectedCaptureMethods
-    );
-
-    // Mostrar los resultados filtrados en consola (opcional)
-    console.log('Filtered Fish:', this.filteredFish);
+    // Llamar al servicio para filtrar los peces y actualizar el estado
+    this.fishService.getAllFishData().subscribe((fishData) => {
+      const filteredFish = this.fishService.filterFish(
+        fishData,
+        selectedLocations,
+        selectedTimes,
+        selectedCaptureMethods
+      );
+    });
   }
 }

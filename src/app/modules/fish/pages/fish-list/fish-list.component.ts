@@ -16,8 +16,14 @@ export class FishListComponent implements OnInit {
   }
 
   cargarDatos() {
+    // Suscribirse al Observable de los peces filtrados
+    this.fishService.filteredFish$.subscribe((filteredFish) => {
+      this.fish = filteredFish;
+      console.log('Peces filtrados:', this.fish);
+    });
+
+    // Si no se han aplicado filtros, puedes cargar todos los peces
     this.fishService.getAllFish().subscribe((response) => {
-      console.log(response);
       this.fish = response.fishData;
     });
   }
