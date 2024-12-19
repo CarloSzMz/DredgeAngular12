@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FishDatum } from 'src/app/core/models/IFish.model';
-import { FishFilterService } from 'src/app/services/fish-filter/fish-filter.service';
+import { FishServiceService } from 'src/app/services/fish/fish-service.service';
 
 @Component({
   selector: 'app-fish-filters',
@@ -37,10 +37,10 @@ export class FishFiltersComponent implements OnInit {
 
   captureMethods: string[] = ['rod', 'trawl', 'pot'];
 
-  constructor(private fishFilterService: FishFilterService) {}
+  constructor(private fishService: FishServiceService) {}
 
   ngOnInit(): void {
-    this.fishFilterService.getFishData().subscribe((data) => {
+    this.fishService.getAllFish().subscribe((data) => {
       this.fishData = data.fishData;
       this.filteredFish = this.fishData; // Inicialmente no se filtra nada
     });
@@ -60,7 +60,7 @@ export class FishFiltersComponent implements OnInit {
     ).filter((method) => this.selectedCaptureMethods[method]);
 
     // Filtrar los peces según los filtros seleccionados
-    this.filteredFish = this.fishFilterService.filterFish(
+    this.filteredFish = this.fishService.filterFish(
       this.fishData,
       selectedLocations,
       selectedTimes,
