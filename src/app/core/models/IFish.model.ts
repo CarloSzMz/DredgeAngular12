@@ -11,10 +11,24 @@ export interface FishDatum {
   aberrations: string;
   valuePerSlot: string;
   grid: string;
-  rod: string;
-  trawl: string;
-  pot: string;
+  captureMethods: CaptureMethods;
   images: Images;
+}
+
+export interface CaptureMethods {
+  rod: Pot;
+  trawl: Pot;
+  pot: Pot;
+}
+
+export enum Pot {
+  No = 'no',
+  Yes = 'yes',
+}
+
+export interface Images {
+  fishImage: string;
+  inventoryImage: string;
 }
 
 export enum Location {
@@ -36,9 +50,4 @@ export enum Time {
 export interface Type {
   name: string;
   image: string;
-}
-
-export interface Images {
-  fishImage: string;
-  inventoryImage: string;
 }

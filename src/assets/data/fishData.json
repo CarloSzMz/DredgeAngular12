@@ -12,9 +12,11 @@
       "aberrations": "Grotesque Mackerel, Lumpy Mackerel, Many-Eyed Mackerel",
       "valuePerSlot": "$5.00",
       "grid": "2x1",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/8/80/Blue_Mackerel_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/4/43/Blue_Mackerel_Inventory.png"
@@ -32,9 +34,11 @@
       "aberrations": "All-Seeing Cod, Fanged Cod, Three-Headed Cod",
       "valuePerSlot": "$6.00",
       "grid": "2x2",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/4/4d/Cod_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/7/74/Cod_Inventory.png"
@@ -52,9 +56,11 @@
       "aberrations": "Brood Squid, Snag Squid",
       "valuePerSlot": "$7.00",
       "grid": "2x1",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/e/e4/Arrow_Squid_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/c/c9/Arrow_Squid_Inventory.png"
@@ -72,9 +78,11 @@
       "aberrations": "Barbed Eel, Host Eel",
       "valuePerSlot": "$6.00",
       "grid": "3x1",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/e/e8/Grey_Eel_Image.png/300px-Grey_Eel_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/c/c8/Grey_Eel_Inventory.png"
@@ -92,9 +100,11 @@
       "aberrations": "Cyclopean Flounder, Riddled Flounder",
       "valuePerSlot": "$4.50",
       "grid": "2x2",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/6/69/Gulf_Flounder_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/b/b0/Gulf_Flounder_Inventory.png"
@@ -112,9 +122,11 @@
       "aberrations": "Tusked Grouper, Voltaic Grouper",
       "valuePerSlot": "$8.75",
       "grid": "2x2",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/d/dc/Black_Grouper_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/d/dc/Black_Grouper_Inventory.png"
@@ -132,9 +144,11 @@
       "aberrations": "Shard Ray",
       "valuePerSlot": "$8.57",
       "grid": "3x3",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/9/90/Stingray_Image.png/300px-Stingray_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/thumb/4/44/Stingray_Inventory.png/160px-Stingray_Inventory.png"
@@ -152,9 +166,11 @@
       "aberrations": "Sallow Sailfish, Hooked Sailfish",
       "valuePerSlot": "$13.33",
       "grid": "6x2",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/1/1f/Sailfish_Image.png/300px-Sailfish_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/thumb/b/be/Sailfish_Inventory.png/250px-Sailfish_Inventory.png"
@@ -172,9 +188,11 @@
       "aberrations": "Bloodskin Shark",
       "valuePerSlot": "$16.67",
       "grid": "4x3",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/a/ab/Bronze_Whaler_Image.png/300px-Bronze_Whaler_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/2/20/Bronze_Whaler_Inventory.png"
@@ -192,9 +210,11 @@
       "aberrations": "Cleft-Mouth Shark",
       "valuePerSlot": "$20.00",
       "grid": "4x2",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/c/c9/Blacktip_Reef_Shark_Image.png/300px-Blacktip_Reef_Shark_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/3/3c/Blacktip_Reef_Sharks_Inventory.png"
@@ -212,9 +232,11 @@
       "aberrations": "Cerebral Crab",
       "valuePerSlot": "$5.25",
       "grid": "1x1",
-      "rod": "no",
-      "trawl": "no",
-      "pot": "yes",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/c/c5/Common_Crab_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/9/9c/Common_Crab_Inventory.png"
@@ -232,9 +254,11 @@
       "aberrations": "Malignant Pincer",
       "valuePerSlot": "$7.00",
       "grid": "3x2",
-      "rod": "no",
-      "trawl": "no",
-      "pot": "yes",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/1/12/Fiddler_Crab_Image.png/300px-Fiddler_Crab_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/0/0f/Fiddler_Crab_Inventory.png"
@@ -252,9 +276,11 @@
       "aberrations": "Gnashing Perch",
       "valuePerSlot": "$5.50",
       "grid": "1x1",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/5/52/Oceanic_Perch_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/7/7f/Oceanic_Perch_Inventory.png"
@@ -272,9 +298,11 @@
       "aberrations": "Flayed Mackerel, Bearded Mackerel",
       "valuePerSlot": "$6.25",
       "grid": "2x1",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/e/ed/Tiger_Mackerel_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/4/44/Tiger_Mackerel_Inventory.png"
@@ -292,9 +320,11 @@
       "aberrations": "Scouring Bass",
       "valuePerSlot": "$7.50",
       "grid": "2x1",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/1/1c/Black_Sea_Bass_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/f/f9/Black_Sea_Bass_Inventory.png"
@@ -312,9 +342,11 @@
       "aberrations": "Gelatinous Stonefish, Enthralled Stonefish",
       "valuePerSlot": "$5.50",
       "grid": "2x2",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/1/1b/Stonefish_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/1/18/Stonefish_Inventory.png"
@@ -332,9 +364,11 @@
       "aberrations": "Decaying Blackmouth",
       "valuePerSlot": "$6.67",
       "grid": "2x2",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/6/61/Blackmouth_Salmon_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/0/09/Blackmouth_Salmon_Inventory.png"
@@ -352,9 +386,11 @@
       "aberrations": "Sprouting Eel",
       "valuePerSlot": "$10.00",
       "grid": "4x2",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/9/93/Conger_Eel_Image.png/300px-Conger_Eel_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/7/74/Conger_Eel_Inventory.png"
@@ -372,9 +408,11 @@
       "aberrations": "Withered Ray",
       "valuePerSlot": "$6.88",
       "grid": "4x3",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/3/34/Devil_Ray_Image.png/300px-Devil_Ray_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/2/25/Devil_Ray_Inventory.png"
@@ -392,9 +430,11 @@
       "aberrations": "Translucent Sturgeon",
       "valuePerSlot": "$12.50",
       "grid": "3x2",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/4/49/Sturgeon_Image.png/300px-Sturgeon_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/0/03/Sturgeon_Inventory.png"
@@ -412,9 +452,11 @@
       "aberrations": "Shattered Wreckfish, Bony Wreckfish",
       "valuePerSlot": "$10.00",
       "grid": "3x2",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/6/64/Wreckfish_Image.png/300px-Wreckfish_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/6/62/Wreckfish_Inventory.png"
@@ -432,9 +474,11 @@
       "aberrations": "Splintered Crab",
       "valuePerSlot": "$5.75",
       "grid": "2x1",
-      "rod": "no",
-      "trawl": "no",
-      "pot": "yes",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/f/f6/Rock_Crab_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/c/c1/Rock_Crab_Inventory.png"
@@ -452,9 +496,11 @@
       "aberrations": "Cortex Decorator",
       "valuePerSlot": "$6.75",
       "grid": "3x1",
-      "rod": "no",
-      "trawl": "no",
-      "pot": "yes",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/e/e9/Decorator_Crab_Image.png/300px-Decorator_Crab_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/6/6f/Decorator_Crab_Inventory.png"
@@ -472,9 +518,11 @@
       "aberrations": "Parhelion Jellyfish",
       "valuePerSlot": "$2.50",
       "grid": "2x2",
-      "rod": "no",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/f/f5/Aurora_Jellyfish_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/7/7b/Aurora_Jellyfish_Inventory.png"
@@ -492,9 +540,11 @@
       "aberrations": "Cursed Fangtooth",
       "valuePerSlot": "$8.00",
       "grid": "1x1",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/6/63/Fangtooth_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/6/61/Fangtooth_Inventory.png"
@@ -512,9 +562,11 @@
       "aberrations": "Voideye",
       "valuePerSlot": "$7.50",
       "grid": "2x1",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/d/d5/Barreleye_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/d/da/Barreleye_Inventory.png"
@@ -532,9 +584,11 @@
       "aberrations": "Radiant Squid",
       "valuePerSlot": "$7.50",
       "grid": "2x1",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/b/be/Firefly_Squid_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/f/fc/Firefly_Squid_Inventory.png"
@@ -552,9 +606,11 @@
       "aberrations": "Blood Snapper, Latching Snapper",
       "valuePerSlot": "$6.50",
       "grid": "2x1",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/4/48/Red_Snapper_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/8/81/Red_Snapper_Inventory.png"
@@ -572,9 +628,11 @@
       "aberrations": "Ruptured Vessel",
       "valuePerSlot": "$15.00",
       "grid": "2x1",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/4/40/Giant_Amphipod_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/c/c9/Giant_Amphipod_Inventory.png"
@@ -592,9 +650,11 @@
       "aberrations": "Perished Loosejaw",
       "valuePerSlot": "$8.33",
       "grid": "2x2",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/e/e1/Loosejaw_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/8/8a/Loosejaw_Inventory.png"
@@ -612,9 +672,11 @@
       "aberrations": "Calcified Snailfish, Seizing Snailfish",
       "valuePerSlot": "$13.33",
       "grid": "3x1",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/4/43/Snailfish_Image.png/300px-Snailfish_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/4/42/Snailfish_Inventory.png"
@@ -632,9 +694,11 @@
       "aberrations": "Consumed Grouper",
       "valuePerSlot": "$8.00",
       "grid": "3x2",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/a/a4/Coral_Grouper_Image.png/300px-Coral_Grouper_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/c/c9/Coral_Grouper_Inventory.png"
@@ -652,9 +716,11 @@
       "aberrations": "Medusa Octopus",
       "valuePerSlot": "$10.00",
       "grid": "3x2",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "yes",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "yes"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/c/c1/Glowing_Octopus_Image.png/300px-Glowing_Octopus_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/3/3b/Glowing_Octopus_Inventory.png"
@@ -672,9 +738,11 @@
       "aberrations": "Bursting Anglerfish",
       "valuePerSlot": "$10.00",
       "grid": "3x2",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/d/df/Anglerfish_Image.png/300px-Anglerfish_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/5/50/Anglerfish_Inventory.png"
@@ -692,9 +760,11 @@
       "aberrations": "Savage Barracuda, Concertina Barracuda",
       "valuePerSlot": "$8.75",
       "grid": "4x1",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/0/00/Barracuda_Image.png/300px-Barracuda_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/3/3e/Barracuda_Inventory.png"
@@ -712,9 +782,11 @@
       "aberrations": "Gazing Shark",
       "valuePerSlot": "$19.44",
       "grid": "5x3",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/9/9d/Hammerhead_Shark_Image.png/300px-Hammerhead_Shark_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/thumb/8/85/Hammerhead_Shark_Inventory.png/250px-Hammerhead_Shark_Inventory.png"
@@ -732,9 +804,11 @@
       "aberrations": "Crown of Nadir",
       "valuePerSlot": "$1.11",
       "grid": "3x3",
-      "rod": "no",
-      "trawl": "no",
-      "pot": "yes",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/f/f5/Crown_of_Thorns_Image.png/300px-Crown_of_Thorns_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/3/38/Crown_of_Thorns_Inventory.png"
@@ -752,9 +826,11 @@
       "aberrations": "Entangled Crab",
       "valuePerSlot": "$7.50",
       "grid": "2x1",
-      "rod": "no",
-      "trawl": "no",
-      "pot": "yes",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/5/5b/Blue_Crab_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/f/f9/Blue_Crab_Inventory.png"
@@ -772,9 +848,11 @@
       "aberrations": "Imperious Lobster",
       "valuePerSlot": "$7.50",
       "grid": "2x2",
-      "rod": "no",
-      "trawl": "no",
-      "pot": "yes",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/0/0a/Spiny_Lobster_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/e/e7/Spiny_Lobster_Inventory.png"
@@ -792,9 +870,11 @@
       "aberrations": "Entwined Mullet",
       "valuePerSlot": "$7.00",
       "grid": "2x1",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/1/1d/Grey_Mullet_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/7/71/Grey_Mullet_Inventory.png"
@@ -812,9 +892,11 @@
       "aberrations": "Blistered Tarpon",
       "valuePerSlot": "$8.33",
       "grid": "3x1",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/7/7c/Tarpon_Image.png/300px-Tarpon_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/2/28/Tarpon_Inventory.png"
@@ -832,9 +914,11 @@
       "aberrations": "Vortex Interloper",
       "valuePerSlot": "$10.00",
       "grid": "3x1",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/b/b2/Sergeant_Fish_Image.png/300px-Sergeant_Fish_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/5/57/Sergeant_Fish_Inventory.png"
@@ -852,9 +936,11 @@
       "aberrations": "Clawfin Gar",
       "valuePerSlot": "$10.00",
       "grid": "4x1",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/7/74/Gar_Image.png/300px-Gar_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/8/80/Gar_Inventory.png"
@@ -872,9 +958,11 @@
       "aberrations": "Twinned Eels",
       "valuePerSlot": "$13.00",
       "grid": "3x3",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/5/52/Longfin_Eel_Image.png/300px-Longfin_Eel_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/b/b3/Longfin_Eel_Inventory.png"
@@ -892,9 +980,11 @@
       "aberrations": "Nightwing Catfish",
       "valuePerSlot": "$11.67",
       "grid": "3x2",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/7/7f/Catfish_Image.png/300px-Catfish_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/6/6f/Catfish_Inventory.png"
@@ -912,9 +1002,11 @@
       "aberrations": "Effigy Crab",
       "valuePerSlot": "$6.25",
       "grid": "2x1",
-      "rod": "no",
-      "trawl": "no",
-      "pot": "yes",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/1/1b/Horseshoe_Crab_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/9/93/Horseshoe_Crab_Inventory.png"
@@ -932,9 +1024,11 @@
       "aberrations": "Mire Screecher",
       "valuePerSlot": "$8.33",
       "grid": "3x2",
-      "rod": "no",
-      "trawl": "no",
-      "pot": "yes",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/a/af/Giant_Mud_Crab_Image.png/300px-Giant_Mud_Crab_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/9/92/Giant_Mud_Crab_Inventory.png"
@@ -952,9 +1046,11 @@
       "aberrations": "Ossified Searobin",
       "valuePerSlot": "$7.33",
       "grid": "2x2",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/d/d6/Armored_Searobin_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/1/13/Armored_Searobin_Inventory.png"
@@ -972,9 +1068,11 @@
       "aberrations": "Infernal Eel",
       "valuePerSlot": "$10.00",
       "grid": "3x1",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/c/c9/Cusk_Eel_Image.png/300px-Cusk_Eel_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/5/58/Cusk_Eel_Inventory.png"
@@ -992,9 +1090,11 @@
       "aberrations": "Serpentine Mackerel",
       "valuePerSlot": "$7.33",
       "grid": "3x1",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/4/40/Snake_Mackerel_Image.png/300px-Snake_Mackerel_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/9/9b/Snake_Mackerel_Inventory.png"
@@ -1012,9 +1112,11 @@
       "aberrations": "Defaced Skate",
       "valuePerSlot": "$11.00",
       "grid": "2x3",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/b/b2/Pale_Skate_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/a/a0/Pale_Skate_Inventory.png"
@@ -1032,9 +1134,11 @@
       "aberrations": "Rapt Shark",
       "valuePerSlot": "$12.50",
       "grid": "3x2",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/e/ef/Ghost_Shark_Image.png/300px-Ghost_Shark_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/6/6d/Ghost_Shark_Inventory.png"
@@ -1052,9 +1156,11 @@
       "aberrations": "Twisted Shark",
       "valuePerSlot": "$20.83",
       "grid": "5x2",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/5/5c/Frilled_Shark_Image.png/300px-Frilled_Shark_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/thumb/c/c2/Frilled_Shark_Inventory.png/250px-Frilled_Shark_Inventory.png"
@@ -1072,9 +1178,11 @@
       "aberrations": "Grasping Snail",
       "valuePerSlot": "$6.75",
       "grid": "2x2",
-      "rod": "no",
-      "trawl": "no",
-      "pot": "yes",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/c/c2/Volcano_Snail_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/f/f2/Volcano_Snail_Inventory.png"
@@ -1092,9 +1200,11 @@
       "aberrations": "Sable Reacher",
       "valuePerSlot": "$9.00",
       "grid": "3x3",
-      "rod": "no",
-      "trawl": "no",
-      "pot": "yes",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/b/b0/Squat_Lobster_Image.png/300px-Squat_Lobster_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/8/8f/Squat_Lobster_Inventory.png"
@@ -1112,9 +1222,11 @@
       "aberrations": "Umbral Puppet",
       "valuePerSlot": "$11.43",
       "grid": "3x3",
-      "rod": "no",
-      "trawl": "no",
-      "pot": "yes",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/e/ed/Spider_Crab_Image.png/300px-Spider_Crab_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/c/c8/Spider_Crab_Inventory.png"
@@ -1132,9 +1244,11 @@
       "aberrations": "Anchovy King",
       "valuePerSlot": "$6.50",
       "grid": "1x1",
-      "rod": "no",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/a/ae/Anchovy_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/1/11/Anchovy_Inventory.png"
@@ -1152,9 +1266,11 @@
       "aberrations": "Leeching Prawn",
       "valuePerSlot": "$7.00",
       "grid": "1x1",
-      "rod": "no",
-      "trawl": "yes",
-      "pot": "yes",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "yes",
+        "pot": "yes"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/8/88/Scarlet_Prawn_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/d/d1/Scarlet_Prawn_Inventory.png"
@@ -1172,9 +1288,11 @@
       "aberrations": "Razormouth Tuna",
       "valuePerSlot": "$10.00",
       "grid": "2x1",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/7/7d/Blackfin_Tuna_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/5/54/Blackfin_Tuna_Inventory.png"
@@ -1192,9 +1310,11 @@
       "aberrations": "Decrepit Viperfish, Collapsed Viperfish",
       "valuePerSlot": "$8.00",
       "grid": "3x1",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/6/6e/Viperfish_Image.png/300px-Viperfish_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/9/91/Viperfish_Inventory.png"
@@ -1212,9 +1332,11 @@
       "aberrations": "Skeletal Moonfish, Beaked Moonfish",
       "valuePerSlot": "$11.25",
       "grid": "2x2",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/0/08/Moonfish_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/f/fa/Moonfish_Inventory.png"
@@ -1232,9 +1354,11 @@
       "aberrations": "Congealed Rattail",
       "valuePerSlot": "$12.00",
       "grid": "3x3",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/b/b9/Rattail_Image.png/300px-Rattail_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/d/dd/Rattail_Inventory.png"
@@ -1252,9 +1376,11 @@
       "aberrations": "Charred Sunfish, Glaring Sunfish",
       "valuePerSlot": "$12.78",
       "grid": "3x3",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/4/43/Ocean_Sunfish_Image.png/300px-Ocean_Sunfish_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/0/04/Ocean_Sunfish_Inventory.png"
@@ -1272,9 +1398,11 @@
       "aberrations": "Fractalline Icefish, Thawed Icefish, Astral Icefish",
       "valuePerSlot": "$6.50",
       "grid": "2x1",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/4/42/Icefish_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/2/2c/Icefish_Inventory.png"
@@ -1292,9 +1420,11 @@
       "aberrations": "Bubbling Char",
       "valuePerSlot": "$6.00",
       "grid": "2x2",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/e/e9/Char_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/4/41/Char_Inventory.png"
@@ -1312,9 +1442,11 @@
       "aberrations": "Hinged Wolffish",
       "valuePerSlot": "$8.33",
       "grid": "3x1",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/b/bc/Wolffish_Image.png/300px-Wolffish_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/f/fd/Wolffish_Inventory.png"
@@ -1332,9 +1464,11 @@
       "aberrations": "Craterous Seer",
       "valuePerSlot": "$8.75",
       "grid": "2x2",
-      "rod": "no",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/2/27/Stargazer_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/5/56/Stargazer_Inventory.png"
@@ -1352,9 +1486,11 @@
       "aberrations": "Feral Lizardfish",
       "valuePerSlot": "$9.00",
       "grid": "2x3",
-      "rod": "yes",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/4/47/Lizardfish_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/4/44/Lizardfish_Inventory.png"
@@ -1372,9 +1508,11 @@
       "aberrations": "Bulbous Toothfish",
       "valuePerSlot": "$10.00",
       "grid": "3x2",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/a/a1/Toothfish_Image.png/300px-Toothfish_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/5/50/Toothfish_Inventory.png"
@@ -1392,9 +1530,11 @@
       "aberrations": "Grisly Shark",
       "valuePerSlot": "$15.00",
       "grid": "4x2",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/0/08/Goblin_Shark_Image.png/300px-Goblin_Shark_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/2/2f/Goblin_Shark_Inventory.png"
@@ -1412,9 +1552,11 @@
       "aberrations": "Pale Grasper",
       "valuePerSlot": "$18.18",
       "grid": "5x3",
-      "rod": "no",
-      "trawl": "yes",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "yes",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/9/90/Colossal_Squid_Image.png/300px-Colossal_Squid_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/thumb/7/7f/Colossal_Squid_Inventory.png/220px-Colossal_Squid_Inventory.png"
@@ -1432,9 +1574,11 @@
       "aberrations": "Fallen Stars",
       "valuePerSlot": "$6.00",
       "grid": "2x1",
-      "rod": "no",
-      "trawl": "no",
-      "pot": "yes",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/b/b9/Sea_Stars_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/7/7b/Sea_Stars_Inventory.png"
@@ -1452,9 +1596,11 @@
       "aberrations": "King's Wreath",
       "valuePerSlot": "$8.75",
       "grid": "2x2",
-      "rod": "no",
-      "trawl": "no",
-      "pot": "yes",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/e/e1/King_Crab_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/0/03/King_Crab_Inventory.png"
@@ -1472,9 +1618,11 @@
       "aberrations": "N/A",
       "valuePerSlot": "$35.71",
       "grid": "6x2",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/6/63/Oarfish_Image.png/300px-Oarfish_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/thumb/7/78/Oarfish_Inventory.png/300px-Oarfish_Inventory.png"
@@ -1492,9 +1640,11 @@
       "aberrations": "N/A",
       "valuePerSlot": "$35.71",
       "grid": "4x2",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/9/97/Gulper_Eel_Image.png/300px-Gulper_Eel_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/1/1b/Gulper_Eel_Inventory.png"
@@ -1512,9 +1662,11 @@
       "aberrations": "N/A",
       "valuePerSlot": "$31.25",
       "grid": "4x2",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/4/43/Goliath_Tigerfish_Image.png/300px-Goliath_Tigerfish_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/thumb/f/f9/Goliath_Tigerfish_Inventory.png/300px-Goliath_Tigerfish_Inventory.png"
@@ -1532,9 +1684,11 @@
       "aberrations": "N/A",
       "valuePerSlot": "$35.71",
       "grid": "5x2",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/8/8c/Coelacanth_Image.png/300px-Coelacanth_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/thumb/6/6d/Coelacanth_Inventory.png/250px-Coelacanth_Inventory.png"
@@ -1552,9 +1706,11 @@
       "aberrations": "N/A",
       "valuePerSlot": "$50.00",
       "grid": "5x1",
-      "rod": "yes",
-      "trawl": "no",
-      "pot": "no",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
       "images": {
         "fishImage": "https://dredge.wiki.gg/images/thumb/6/6a/Sleeper_Shark_Image.png/300px-Sleeper_Shark_Image.png",
         "inventoryImage": "https://dredge.wiki.gg/images/thumb/1/1b/Sleeper_Shark_Inventory.png/298px-Sleeper_Shark_Inventory.png"
