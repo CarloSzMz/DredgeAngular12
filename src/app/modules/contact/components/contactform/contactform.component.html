@@ -1,0 +1,66 @@
+<div class="container mt-5">
+  <form
+    [formGroup]="formularioContacto"
+    (ngSubmit)="enviar()"
+    class="p-5 rounded shadow bg-white"
+  >
+    <!-- EMAIL -->
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label"
+        >Correo Electrónico</label
+      >
+      <input
+        type="email"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        formControlName="email"
+        [ngClass]="{
+          'is-invalid':
+            haserrors('email', 'required') || haserrors('email', 'email')
+        }"
+      />
+      <div class="text-danger" *ngIf="haserrors('email', 'required')">
+        Correo requerido.
+      </div>
+      <div class="text-danger" *ngIf="haserrors('email', 'email')">
+        Correo no válido.
+      </div>
+    </div>
+    <!-- Mensaje -->
+    <div class="mb-3">
+      <label for="messageinput" class="form-label">Mensaje</label>
+      <textarea
+        name="messageinput"
+        class="form-control"
+        id="messageinput"
+        [ngClass]="{
+          'is-invalid': haserrors('message', 'required')
+        }"
+        formControlName="message"
+      ></textarea>
+      <div class="text-danger" *ngIf="haserrors('message', 'required')">
+        Mensaje requerido.
+      </div>
+    </div>
+    <!-- TERMINOS -->
+    <div class="mb-3 form-check">
+      <input
+        type="checkbox"
+        class="form-check-input"
+        id="exampleCheck1"
+        formControlName="terms"
+      />
+      <label class="form-check-label" for="exampleCheck1"
+        >Términos y Condiciones</label
+      >
+    </div>
+    <button
+      type="submit"
+      [disabled]="formularioContacto.invalid"
+      class="btn btn-primary"
+    >
+      Enviar
+    </button>
+  </form>
+</div>

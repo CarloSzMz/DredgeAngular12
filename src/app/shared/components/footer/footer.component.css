@@ -1,0 +1,5 @@
+.custom-hr {
+  height: 2px; /* Cambia el grosor */
+  opacity: 0.8; /* Ajusta la opacidad */
+  border: none; /* Elimina bordes por defecto */
+}
