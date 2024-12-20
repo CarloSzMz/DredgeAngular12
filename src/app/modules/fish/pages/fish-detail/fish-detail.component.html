@@ -1,49 +1,69 @@
-<div class="container mt-4">
+<div class="container mt-4 p-4">
   <!-- Título -->
-  <h1 class="text-center mb-4">{{ pescado?.name }}</h1>
+  <h1 class="text-center mb-4 fw-bold text-dark">{{ pescado?.name }}</h1>
 
   <!-- Información del pez -->
   <div class="row justify-content-center">
-    <div class="col-md-8">
-      <!-- Card para mostrar los detalles del pez -->
-      <div class="card shadow-lg">
-        <div class="row g-0">
-          <!-- Imagen del pez -->
-          <div class="col-md-4">
+    <div class="col-md-10 p-4 rounded" style="background-color: #f5e0c3">
+      <div class="row">
+        <!-- Columna de datos -->
+        <div class="col-md-6">
+          <ul class="list-unstyled text-dark">
+            <li><strong>Ubicación:</strong> {{ pescado?.location }}</li>
+            <li><strong>Hora:</strong> {{ pescado?.time }}</li>
+            <li>
+              <strong>Valor por Slot:</strong> {{ pescado?.valuePerSlot }}
+            </li>
+            <li><strong>Aberraciones:</strong> {{ pescado?.aberrations }}</li>
+            <li><strong>Grid:</strong> {{ pescado?.grid }}</li>
+            <li><strong>Rod:</strong> {{ pescado?.captureMethods?.rod }}</li>
+            <li>
+              <strong>Trawl:</strong> {{ pescado?.captureMethods?.trawl }}
+            </li>
+            <li><strong>Pot:</strong> {{ pescado?.captureMethods?.pot }}</li>
+          </ul>
+        </div>
+
+        <!-- Columna de imágenes -->
+        <div class="col-md-6 text-center">
+          <!-- Imagen principal del pescado -->
+          <div class="mb-3">
             <img
               [src]="pescado?.images?.fishImage"
               alt="{{ pescado?.name }}"
-              class="img-fluid rounded-start"
-              style="object-fit: cover; height: 100%"
+              class="img-fluid rounded"
+              style="
+                max-height: 200px;
+                object-fit: contain;
+                border: 2px solid #e3c6a8;
+              "
             />
           </div>
-          <div class="col-md-4">
+          <!-- Nueva imagen del tipo -->
+          <div class="mb-3">
+            <img
+              [src]="pescado?.type?.image"
+              alt="Tipo de {{ pescado?.name }}"
+              class="img-fluid rounded"
+              style="
+                max-height: 100px;
+                object-fit: contain;
+                border: 2px solid #e3c6a8;
+              "
+            />
+          </div>
+          <p class="fw-bold text-secondary">Inventario</p>
+          <div>
             <img
               [src]="pescado?.images?.inventoryImage"
-              alt="{{ pescado?.name }}"
-              class="img-fluid rounded-start"
-              style="object-fit: cover; height: 100%"
+              alt="Inventario de {{ pescado?.name }}"
+              class="img-fluid"
+              style="
+                max-height: 100px;
+                object-fit: contain;
+                border: 2px solid #e3c6a8;
+              "
             />
-          </div>
-
-          <!-- Contenido de la tarjeta -->
-          <div class="col-md-8">
-            <div class="card-body">
-              <!-- Nombre del pez -->
-              <h5 class="card-title">{{ pescado?.name }}</h5>
-              <p class="card-text">
-                <strong>Ubicación:</strong> {{ pescado?.location }}<br />
-                <strong>Hora:</strong> {{ pescado?.time }}<br />
-                <strong>Valor por Slot:</strong> {{ pescado?.valuePerSlot
-                }}<br />
-                <strong>Aberraciones:</strong> {{ pescado?.aberrations }}<br />
-                <strong>Grid:</strong> {{ pescado?.grid }} <br />
-                <strong>Rod:</strong> {{ pescado?.captureMethods?.rod }} <br />
-                <strong>Trawl:</strong> {{ pescado?.captureMethods?.trawl }}
-                <br />
-                <strong>Pot:</strong> {{ pescado?.captureMethods?.pot }} <br />
-              </p>
-            </div>
           </div>
         </div>
       </div>

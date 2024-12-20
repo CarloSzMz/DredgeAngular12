@@ -35,7 +35,7 @@ export class FishDetailComponent implements OnInit {
       this.fishService.getFishByName(name).subscribe(
         (fish) => {
           this.pescado = fish;
-          console.log('Pez encontrado por nombre:', this.pescado);
+          console.log(this.pescado);
         },
         (error) => {
           console.error('Error al obtener el pez por nombre', error);
