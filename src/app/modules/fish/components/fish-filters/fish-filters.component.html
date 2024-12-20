@@ -48,8 +48,11 @@
       </div>
     </div>
 
-    <div class="text-center mt-3">
-      <button class="btn btn-info" type="submit">Filter</button>
+    <div class="text-center mt-3 p-2">
+      <button class="btn btn-info m-2" type="submit">Buscar</button>
+      <button class="btn btn-danger m-2" type="button" (click)="clearFilters()">
+        Borrar Seleccion
+      </button>
       <!-- Al hacer submit se aplica el filtro -->
     </div>
   </form>

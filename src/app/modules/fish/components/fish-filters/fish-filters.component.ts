@@ -49,4 +49,9 @@ export class FishFiltersComponent {
       );
     });
   }
+  clearFilters() {
+    this.selectedLocations = {};
+    this.selectedTimes = {};
+    this.selectedCaptureMethods = {};
+  }
 }
