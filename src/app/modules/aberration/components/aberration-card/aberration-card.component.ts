@@ -11,7 +11,5 @@ export class AberrationCardComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {
-    console.log('nig');
-  }
+  ngOnInit(): void {}
 }

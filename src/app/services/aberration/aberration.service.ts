@@ -21,4 +21,19 @@ export class AberrationService {
   getAllAberrations(): Observable<IAberration> {
     return this.httpClient.get<IAberration>(this.urlAberration);
   }
+
+  getPaginatedAberrations(
+    page: number,
+    pageSize: number
+  ): Observable<AberrationDatum[]> {
+    return new Observable((observer) => {
+      this.getAllAberrations().subscribe((data) => {
+        const startIndex = (page - 1) * pageSize;
+        const endIndex = startIndex + pageSize;
+        const paginatedData = data.aberrationData.slice(startIndex, endIndex);
+        observer.next(paginatedData);
+        observer.complete();
+      });
+    });
+  }
 }

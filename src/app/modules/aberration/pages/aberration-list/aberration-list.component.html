@@ -16,6 +16,36 @@
 </div> -->
 
 <div style="background-color: rgb(128, 100, 204)">
+  <div class="d-flex justify-content-center pt-4">
+    <!-- Botón de página anterior -->
+    <button
+      class="btn btn-light me-2"
+      [disabled]="currentPage === 1"
+      (click)="changePage(currentPage - 1)"
+    >
+      Anterior
+    </button>
+
+    <!-- Botones de cada página -->
+    <button
+      class="btn btn-outline-light mx-1"
+      *ngFor="let page of totalPages"
+      [class.active]="currentPage === page"
+      (click)="changePage(page)"
+    >
+      {{ page }}
+    </button>
+
+    <!-- Botón de página siguiente -->
+    <button
+      class="btn btn-light ms-2"
+      [disabled]="currentPage === totalPages.length"
+      (click)="changePage(currentPage + 1)"
+    >
+      Siguiente
+    </button>
+  </div>
+
   <div class="container pt-5">
     <div class="row">
       <app-aberration-card
