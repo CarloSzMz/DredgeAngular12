@@ -1,8 +1,8 @@
 export interface IAberration {
-  fishData: FishDatum[];
+  aberrationData: AberrationDatum[];
 }
 
-export interface FishDatum {
+export interface AberrationDatum {
   id: string;
   name: string;
   location: Location;
