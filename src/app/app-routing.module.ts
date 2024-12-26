@@ -3,9 +3,15 @@ import { RouterModule, Routes } from '@angular/router';
 import { FishModule } from './modules/fish/fish.module';
 import { ContactModule } from './modules/contact/contact.module';
 import { AberrationModule } from './modules/aberration/aberration.module';
+import { HomeModule } from './modules/home/home.module';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'fishList', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  {
+    path: 'home',
+    loadChildren: () =>
+      import('./modules/home/home.module').then((m) => m.HomeModule),
+  },
   {
     path: 'fishList',
     loadChildren: () =>
@@ -23,12 +29,13 @@ const routes: Routes = [
     loadChildren: () =>
       import('./modules/contact/contact.module').then((m) => m.ContactModule),
   },
-  { path: '**', redirectTo: 'fishList' },
+  { path: '**', redirectTo: 'home' },
 ];
 
 @NgModule({
   imports: [
     RouterModule.forRoot(routes),
+    HomeModule,
     FishModule,
     ContactModule,
     AberrationModule,
