@@ -1,3 +1,7 @@
 .filtros {
-  border-top: 1px solid #d3d3d3;
+  background-color: rgba(4, 79, 129, 0.562);
+}
+
+.main {
+  background-color: rgb(4, 129, 129);
 }
