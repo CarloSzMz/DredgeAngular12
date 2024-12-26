@@ -10,7 +10,9 @@ export interface AberrationDatum {
   time: Time;
   AberrationOf: string;
   valuePerSlot: string;
-  image: string;
+  grid: string;
+  captureMethods: CaptureMethods;
+  images: Images;
 }
 
 export enum Location {
@@ -43,4 +45,15 @@ export enum Name {
   Oceanic = 'Oceanic',
   Shallow = 'Shallow',
   Volcanic = 'Volcanic',
+}
+
+export interface CaptureMethods {
+  rod: string;
+  trawl: string;
+  pot: string;
+}
+
+export interface Images {
+  AberrationImage: string;
+  inventoryImage: string;
 }

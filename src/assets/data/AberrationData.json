@@ -11,7 +11,16 @@
       "time": "Day",
       "AberrationOf": "Blue Mackerel",
       "valuePerSlot": "$15.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/2/2c/Grotesque_Mackerel.png/revision/latest/scale-to-width-down/150?cb=20230406013721"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/a/ac/Grotesque_Mackerel_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/8/86/Grotesque_Mackerel_Inventory.png"
+      }
     },
     {
       "id": "80",
@@ -24,7 +33,16 @@
       "time": "Day",
       "AberrationOf": "Blue Mackerel",
       "valuePerSlot": "$17.50",
-      "image": "https://static.wikia.nocookie.net/dredge/images/8/86/Lumpy_Mackerel.png/revision/latest/scale-to-width-down/150?cb=20230406020523"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/b/b7/Lumpy_Mackerel_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/c/c9/Lumpy_Mackerel_Inventory.png"
+      }
     },
     {
       "id": "81",
@@ -37,7 +55,16 @@
       "time": "Day",
       "AberrationOf": "Blue Mackerel",
       "valuePerSlot": "$20.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/4/41/Many-Eyed_Mackerel.png/revision/latest/scale-to-width-down/150?cb=20230406020724"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/5/5e/Many-Eyed_Mackerel_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/2/2c/Many-Eyed_Mackerel_Inventory.png"
+      }
     },
     {
       "id": "82",
@@ -50,7 +77,16 @@
       "time": "Day",
       "AberrationOf": "Cod",
       "valuePerSlot": "$16.67",
-      "image": "https://static.wikia.nocookie.net/dredge/images/f/fb/All-Seeing_Cod.png/revision/latest/scale-to-width-down/150?cb=20230406021400"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/f/fb/All-Seeing_Cod_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/a/ae/All-Seeing_Cod_Inventory.png"
+      }
     },
     {
       "id": "83",
@@ -63,7 +99,16 @@
       "time": "Day",
       "AberrationOf": "Cod",
       "valuePerSlot": "$20.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/f/f2/Fanged_Cod.png/revision/latest/scale-to-width-down/150?cb=20230406021544"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/0/0f/Fanged_Cod_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/b/b3/Fanged_Cod_Inventory.png"
+      }
     },
     {
       "id": "84",
@@ -76,7 +121,16 @@
       "time": "Day",
       "AberrationOf": "Cod",
       "valuePerSlot": "$23.33",
-      "image": "https://static.wikia.nocookie.net/dredge/images/1/14/Three-Headed_Cod.png/revision/latest/scale-to-width-down/150?cb=20230406021927"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/f/fc/Three-Headed_Cod_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/5/53/Three-Headed_Cod_Inventory.png"
+      }
     },
     {
       "id": "85",
@@ -89,7 +143,16 @@
       "time": "Night",
       "AberrationOf": "Arrow Squid",
       "valuePerSlot": "$16.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/3/3c/Brood_Squid.png/revision/latest/scale-to-width-down/150?cb=20230406023959"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/6/6c/Brood_Squid_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/8/85/Brood_Squid_Inventory.png"
+      }
     },
     {
       "id": "86",
