@@ -165,7 +165,16 @@
       "time": "Night",
       "AberrationOf": "Arrow Squid",
       "valuePerSlot": "$19.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/c/cd/Snag_Squid.png/revision/latest/scale-to-width-down/150?cb=20230406024111"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/3/3b/Snag_Squid_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/5/50/Snag_Squid_Inventory.png"
+      }
     },
     {
       "id": "87",
@@ -178,7 +187,16 @@
       "time": "Day",
       "AberrationOf": "Grey Eel",
       "valuePerSlot": "$16.67",
-      "image": "https://static.wikia.nocookie.net/dredge/images/5/5e/Barbed_Eel.png/revision/latest/scale-to-width-down/150?cb=20230406023946"
+      "grid": "3x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/9/9c/Barbed_Eel_Image.png/300px-Barbed_Eel_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/f/f2/Barbed_Eel_Inventory.png"
+      }
     },
     {
       "id": "88",
@@ -191,7 +209,16 @@
       "time": "Day",
       "AberrationOf": "Grey Eel",
       "valuePerSlot": "$20.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/c/c4/Host_Eel.png/revision/latest/scale-to-width-down/150?cb=20230406024042"
+      "grid": "3x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/5/54/Host_Eel_Image.png/300px-Host_Eel_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/8/86/Host_Eel_Inventory.png"
+      }
     },
     {
       "id": "89",
@@ -204,7 +231,16 @@
       "time": "Day",
       "AberrationOf": "Gulf Flounder",
       "valuePerSlot": "$15.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/f/f1/Cyclopean_Flounder.png/revision/latest/scale-to-width-down/150?cb=20230406024015"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/3/3d/Cyclopean_Flounder_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/f/f8/Cyclopean_Flounder_Inventory.png"
+      }
     },
     {
       "id": "90",
@@ -217,7 +253,16 @@
       "time": "Day",
       "AberrationOf": "Gulf Flounder",
       "valuePerSlot": "$17.50",
-      "image": "https://static.wikia.nocookie.net/dredge/images/c/ce/Riddled_Flounder.png/revision/latest/scale-to-width-down/150?cb=20230406024100"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/b/bf/Riddled_Flounder_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/9/98/Riddled_Flounder_Inventory.png"
+      }
     },
     {
       "id": "91",
@@ -230,7 +275,16 @@
       "time": "Night",
       "AberrationOf": "Black Grouper",
       "valuePerSlot": "$21.25",
-      "image": "https://static.wikia.nocookie.net/dredge/images/8/8c/Tusked_Grouper.png/revision/latest/scale-to-width-down/150?cb=20230406024123"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/6/64/Tusked_Grouper_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/2/21/Tusked_Grouper_Inventory.png"
+      }
     },
     {
       "id": "92",
@@ -243,7 +297,16 @@
       "time": "Night",
       "AberrationOf": "Black Grouper",
       "valuePerSlot": "$25.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/3/39/Voltaic_Grouper.png/revision/latest/scale-to-width-down/150?cb=20230406024128"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/c/c9/Voltaic_Grouper_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/2/29/Voltaic_Grouper_Inventory.png"
+      }
     },
     {
       "id": "93",
@@ -256,7 +319,16 @@
       "time": "Any",
       "AberrationOf": "Stingray",
       "valuePerSlot": "$21.43",
-      "image": "https://static.wikia.nocookie.net/dredge/images/3/35/Shard_Ray.png/revision/latest/scale-to-width-down/150?cb=20230406024108"
+      "grid": "3x3",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/c/c0/Shard_Ray_Image.png/300px-Shard_Ray_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/thumb/7/7a/Shard_Ray_Inventory.png/160px-Shard_Ray_Inventory.png"
+      }
     },
     {
       "id": "94",
@@ -269,7 +341,16 @@
       "time": "Day",
       "AberrationOf": "Sailfish",
       "valuePerSlot": "$38.89",
-      "image": "https://static.wikia.nocookie.net/dredge/images/5/57/Sallow_Sailfish.png/revision/latest/scale-to-width-down/150?cb=20230406024103"
+      "grid": "6x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/e/ea/Sallow_Sailfish_Image.png/300px-Sallow_Sailfish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/thumb/b/b7/Sallow_Sailfish_Inventory.png/250px-Sallow_Sailfish_Inventory.png"
+      }
     },
     {
       "id": "95",
@@ -282,7 +363,16 @@
       "time": "Day",
       "AberrationOf": "Sailfish",
       "valuePerSlot": "$41.67",
-      "image": "https://static.wikia.nocookie.net/dredge/images/2/2a/Hooked_Sailfish.png/revision/latest/scale-to-width-down/150?cb=20230709210354"
+      "grid": "6x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/1/10/Hooked_Sailfish_Image.png/300px-Hooked_Sailfish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/thumb/7/79/Hooked_Sailfish_Inventory.png/250px-Hooked_Sailfish_Inventory.png"
+      }
     },
     {
       "id": "96",
@@ -295,7 +385,16 @@
       "time": "Day",
       "AberrationOf": "Bronze Whaler",
       "valuePerSlot": "$36.67",
-      "image": "https://static.wikia.nocookie.net/dredge/images/4/41/Bloodskin_Shark.png/revision/latest/scale-to-width-down/150?cb=20230406023955"
+      "grid": "4x3",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/4/4e/Bloodskin_Shark_Image.png/300px-Bloodskin_Shark_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/6/63/Bloodskin_Shark_Inventory.png"
+      }
     },
     {
       "id": "97",
@@ -308,7 +407,16 @@
       "time": "Night",
       "AberrationOf": "Blacktip Reef Shark",
       "valuePerSlot": "$45.83",
-      "image": "https://static.wikia.nocookie.net/dredge/images/6/63/Cleft-Mouth_Shark.png/revision/latest/scale-to-width-down/150?cb=20230406024004"
+      "grid": "4x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/9/9d/Cleft-Mouth_Shark_Image.png/300px-Cleft-Mouth_Shark_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/f/f3/Cleft-Mouth_Shark_Inventory.png"
+      }
     },
     {
       "id": "98",
@@ -321,7 +429,16 @@
       "time": "Any",
       "AberrationOf": "Common Crab",
       "valuePerSlot": "$15.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/3/37/Cerebral_Crab.png/revision/latest?cb=20231001180157"
+      "grid": "1x1",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/5/57/Cerebral_Crab_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/b/be/Cerebral_Crab_Inventory.png"
+      }
     },
     {
       "id": "99",
@@ -334,7 +451,16 @@
       "time": "Any",
       "AberrationOf": "Fiddler Crab",
       "valuePerSlot": "$14.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/1/1f/Malignant_Pincer.png/revision/latest/scale-to-width-down/150?cb=20231001181314"
+      "grid": "3x2",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/e/e4/Malignant_Pincer_Image.png/300px-Malignant_Pincer_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/8/82/Malignant_Pincer_Inventory.png"
+      }
     },
     {
       "id": "100",
@@ -347,7 +473,16 @@
       "time": "Day",
       "AberrationOf": "Oceanic Perch",
       "valuePerSlot": "$17.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/9/90/Gnashing_Perch.png/revision/latest?cb=20230406024034"
+      "grid": "1x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/6/6f/Gnashing_Perch_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/c/cc/Gnashing_Perch_Inventory.png"
+      }
     },
     {
       "id": "101",
@@ -360,7 +495,16 @@
       "time": "Day",
       "AberrationOf": "Tiger Mackerel",
       "valuePerSlot": "$17.50",
-      "image": "https://static.wikia.nocookie.net/dredge/images/b/be/Flayed_Mackerel.png/revision/latest/scale-to-width-down/150?cb=20230406024027"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/c/c5/Flayed_Mackerel_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/b/bb/Flayed_Mackerel_Inventory.png"
+      }
     },
     {
       "id": "102",
@@ -373,7 +517,16 @@
       "time": "Day",
       "AberrationOf": "Tiger Mackerel",
       "valuePerSlot": "$22.50",
-      "image": "https://static.wikia.nocookie.net/dredge/images/f/fe/Bearded_Mackerel.png/revision/latest/scale-to-width-down/150?cb=20230406023948"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/6/67/Bearded_Mackerel_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/6/64/Bearded_Mackerel_Inventory.png"
+      }
     },
     {
       "id": "103",
@@ -386,7 +539,16 @@
       "time": "Night",
       "AberrationOf": "Black Sea Bass",
       "valuePerSlot": "$17.50",
-      "image": "https://static.wikia.nocookie.net/dredge/images/0/07/Scouring_Bass.png/revision/latest/scale-to-width-down/150?cb=20230406024106"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/0/07/Scouring_Bass_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/8/83/Scouring_Bass_Inventory.png"
+      }
     },
     {
       "id": "104",
@@ -399,7 +561,16 @@
       "time": "Day",
       "AberrationOf": "Stonefish",
       "valuePerSlot": "$11.25",
-      "image": "https://static.wikia.nocookie.net/dredge/images/b/ba/Gelatinous_Stonefish.png/revision/latest/scale-to-width-down/150?cb=20230406024030"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/9/93/Gelatinous_Stonefish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/8/82/Gelatinous_Stonefish_Inventory.png"
+      }
     },
     {
       "id": "105",
@@ -412,7 +583,16 @@
       "time": "Day",
       "AberrationOf": "Stonefish",
       "valuePerSlot": "$11.25",
-      "image": "https://static.wikia.nocookie.net/dredge/images/b/b7/Enthralled_Stonefish.png/revision/latest/scale-to-width-down/150?cb=20230709210016"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/9/99/Enthralled_Stonefish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/e/e4/Enthralled_Stonefish_Inventory.png"
+      }
     },
     {
       "id": "106",
@@ -425,7 +605,16 @@
       "time": "Day",
       "AberrationOf": "Blackmouth Salmon",
       "valuePerSlot": "$16.67",
-      "image": "https://static.wikia.nocookie.net/dredge/images/2/2a/Decaying_Blackmouth.png/revision/latest/scale-to-width-down/150?cb=20230407164720"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/7/76/Decaying_Blackmouth_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/f/f2/Decaying_Blackmouth_Inventory.png"
+      }
     },
     {
       "id": "107",
@@ -438,7 +627,16 @@
       "time": "Night",
       "AberrationOf": "Conger Eel",
       "valuePerSlot": "$23.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/0/01/Sprouting_Eel.png/revision/latest/scale-to-width-down/150?cb=20230406024115"
+      "grid": "4x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/4/4d/Sprouting_Eel_Image.png/300px-Sprouting_Eel_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/1/14/Sprouting_Eel_Inventory.png"
+      }
     },
     {
       "id": "108",
@@ -451,7 +649,16 @@
       "time": "Night",
       "AberrationOf": "Devil Ray",
       "valuePerSlot": "$15.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/a/a0/Withered_Ray.png/revision/latest/scale-to-width-down/150?cb=20230406024130"
+      "grid": "4x3",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/2/22/Withered_Ray_Image.png/300px-Withered_Ray_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/d/db/Withered_Ray_Inventory.png"
+      }
     },
     {
       "id": "109",
@@ -464,7 +671,16 @@
       "time": "Day",
       "AberrationOf": "Sturgeon",
       "valuePerSlot": "$23.75",
-      "image": "https://static.wikia.nocookie.net/dredge/images/9/9a/Translucent_Sturgeon.png/revision/latest/scale-to-width-down/150?cb=20230406024122"
+      "grid": "3x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/e/e4/Translucent_Sturgeon_Image.png/300px-Translucent_Sturgeon_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/8/8f/Translucent_Sturgeon_Inventory.png"
+      }
     },
     {
       "id": "110",
@@ -477,7 +693,16 @@
       "time": "Day",
       "AberrationOf": "Wreckfish",
       "valuePerSlot": "$20.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/0/06/Shattered_Wreckfish.png/revision/latest/scale-to-width-down/150?cb=20230406024109"
+      "grid": "3x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/7/7e/Shattered_Wreckfish_Image.png/300px-Shattered_Wreckfish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/5/5e/Shattered_Wreckfish_Inventory.png"
+      }
     },
     {
       "id": "111",
@@ -490,7 +715,16 @@
       "time": "Day",
       "AberrationOf": "Wreckfish",
       "valuePerSlot": "$23.33",
-      "image": "https://static.wikia.nocookie.net/dredge/images/1/11/Bony_Wreckfish.png/revision/latest/scale-to-width-down/150?cb=20230406023957"
+      "grid": "3x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/0/05/Bony_Wreckfish_Image.png/300px-Bony_Wreckfish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/a/af/Bony_Wreckfish_Inventory.png"
+      }
     },
     {
       "id": "112",
@@ -503,7 +737,16 @@
       "time": "Any",
       "AberrationOf": "Rock Crab",
       "valuePerSlot": "$12.50",
-      "image": "https://static.wikia.nocookie.net/dredge/images/2/2b/Splintered_Crab.png/revision/latest/scale-to-width-down/150?cb=20231001192049"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/4/45/Splintered_Crab_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/f/f3/Splintered_Crab_Inventory.png"
+      }
     },
     {
       "id": "113",
@@ -516,7 +759,16 @@
       "time": "Any",
       "AberrationOf": "Decorator Crab",
       "valuePerSlot": "$10.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/7/79/Cortex_Decorator.png/revision/latest/scale-to-width-down/150?cb=20231001193822"
+      "grid": "3x1",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/7/7c/Cortex_Decorator_Image.png/300px-Cortex_Decorator_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/d/dd/Cortex_Decorator_Inventory.png"
+      }
     },
     {
       "id": "114",
@@ -529,7 +781,16 @@
       "time": "Night",
       "AberrationOf": "Aurora Jellyfish",
       "valuePerSlot": "$6.25",
-      "image": "https://static.wikia.nocookie.net/dredge/images/8/8a/Parhelion_Jellyfish.png/revision/latest/scale-to-width-down/150?cb=20230406024054"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/8/8d/Parhelion_Jellyfish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/c/cd/Parhelion_Jellyfish_Inventory.png"
+      }
     },
     {
       "id": "115",
@@ -542,7 +803,16 @@
       "time": "Any",
       "AberrationOf": "Fangtooth",
       "valuePerSlot": "$24.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/2/21/Cursed_Fangtooth.png/revision/latest?cb=20230406024013"
+      "grid": "1x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/0/08/Cursed_Fangtooth_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/b/b6/Cursed_Fangtooth_Inventory.png"
+      }
     },
     {
       "id": "116",
@@ -555,7 +825,16 @@
       "time": "Any",
       "AberrationOf": "Barreleye",
       "valuePerSlot": "$20.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/a/a7/Voideye.png/revision/latest/scale-to-width-down/150?cb=20230406024126"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/e/e7/Voideye_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/2/29/Voideye_Inventory.png"
+      }
     },
     {
       "id": "117",
@@ -568,7 +847,16 @@
       "time": "Night",
       "AberrationOf": "Firefly Squid",
       "valuePerSlot": "$25.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/b/ba/Radiant_Squid.png/revision/latest/scale-to-width-down/150?cb=20230406024055"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/b/b0/Radiant_Squid_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/e/e3/Radiant_Squid_Inventory.png"
+      }
     },
     {
       "id": "118",
@@ -581,7 +869,16 @@
       "time": "Day",
       "AberrationOf": "Red Snapper",
       "valuePerSlot": "$15.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/3/3e/Blood_Snapper.png/revision/latest/scale-to-width-down/150?cb=20230406023954"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/4/44/Blood_Snapper_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/f/fa/Blood_Snapper_Inventory.png"
+      }
     },
     {
       "id": "119",
@@ -594,7 +891,16 @@
       "time": "Day",
       "AberrationOf": "Red Snapper",
       "valuePerSlot": "$20.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/6/62/Latching_Snapper.png/revision/latest/scale-to-width-down/150?cb=20230709210038"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/0/02/Latching_Snapper_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/8/8e/Latching_Snapper_Inventory.png"
+      }
     },
     {
       "id": "120",
@@ -607,7 +913,16 @@
       "time": "Any",
       "AberrationOf": "Giant Amphipod",
       "valuePerSlot": "$30.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/f/f5/Ruptured_Amphipod.png/revision/latest/scale-to-width-down/150?cb=20230406024101"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/b/b7/Ruptured_Vessel_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/8/8b/Ruptured_Vessel_Inventory.png"
+      }
     },
     {
       "id": "121",
@@ -620,7 +935,16 @@
       "time": "Any",
       "AberrationOf": "Loosejaw",
       "valuePerSlot": "$21.67",
-      "image": "https://static.wikia.nocookie.net/dredge/images/4/4e/Perished_Loosejaw.png/revision/latest/scale-to-width-down/150?cb=20230406024055"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/6/6b/Perished_Loosejaw_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/e/e0/Perished_Loosejaw_Inventory.png"
+      }
     },
     {
       "id": "122",
@@ -633,7 +957,16 @@
       "time": "Any",
       "AberrationOf": "Snailfish",
       "valuePerSlot": "$28.33",
-      "image": "https://static.wikia.nocookie.net/dredge/images/f/f4/Calcified_Snailfish.png/revision/latest/scale-to-width-down/150?cb=20230406024001"
+      "grid": "3x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/8/80/Calcified_Snailfish_Image.png/300px-Calcified_Snailfish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/7/7b/Calcified_Snailfish_Inventory.png"
+      }
     },
     {
       "id": "123",
@@ -646,7 +979,16 @@
       "time": "Any",
       "AberrationOf": "Snailfish",
       "valuePerSlot": "$30.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/0/0d/Seizing_Snailfish.png/revision/latest/scale-to-width-down/150?cb=20230709210042"
+      "grid": "3x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/a/a3/Seizing_Snailfish_Image.png/300px-Seizing_Snailfish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/1/13/Seizing_Snailfish_Inventory.png"
+      }
     },
     {
       "id": "124",
@@ -659,7 +1001,16 @@
       "time": "Day",
       "AberrationOf": "Coral Grouper",
       "valuePerSlot": "$20.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/6/62/Consumed_Grouper.png/revision/latest/scale-to-width-down/150?cb=20230406024010"
+      "grid": "3x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/8/89/Consumed_Grouper_Image.png/300px-Consumed_Grouper_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/a/a5/Consumed_Grouper_Inventory.png"
+      }
     },
     {
       "id": "125",
@@ -672,7 +1023,16 @@
       "time": "Night",
       "AberrationOf": "Glowing Octopus",
       "valuePerSlot": "$23.75",
-      "image": "https://static.wikia.nocookie.net/dredge/images/2/2a/Medusa_Octopus.png/revision/latest/scale-to-width-down/150?cb=20230406024047"
+      "grid": "3x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "yes"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/f/fb/Medusa_Octopus_Image.png/300px-Medusa_Octopus_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/b/b8/Medusa_Octopus_Inventory.png"
+      }
     },
     {
       "id": "126",
@@ -685,7 +1045,16 @@
       "time": "Any",
       "AberrationOf": "Anglerfish",
       "valuePerSlot": "$27.50",
-      "image": "https://static.wikia.nocookie.net/dredge/images/3/3c/Bursting_Anglerfish.png/revision/latest/scale-to-width-down/150?cb=20230406024000"
+      "grid": "3x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/e/e6/Bursting_Anglerfish_Image.png/300px-Bursting_Anglerfish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/6/68/Bursting_Anglerfish_Inventory.png"
+      }
     },
     {
       "id": "127",
@@ -698,7 +1067,16 @@
       "time": "Day",
       "AberrationOf": "Barracuda",
       "valuePerSlot": "$20.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/e/ea/Savage_Barracuda.png/revision/latest/scale-to-width-down/150?cb=20230406024104"
+      "grid": "4x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/0/0e/Savage_Barracuda_Image.png/300px-Savage_Barracuda_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/5/55/Savage_Barracuda_Inventory.png"
+      }
     },
     {
       "id": "128",
@@ -711,7 +1089,16 @@
       "time": "Day",
       "AberrationOf": "Barracuda",
       "valuePerSlot": "$18.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/c/cc/Concertina_Barracuda.png/revision/latest/scale-to-width-down/150?cb=20230709210009"
+      "grid": "4x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/7/79/Concertina_Barracuda_Image.png/300px-Concertina_Barracuda_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/3/3e/Concertina_Barracuda_Inventory.png"
+      }
     },
     {
       "id": "129",
@@ -724,7 +1111,16 @@
       "time": "Any",
       "AberrationOf": "Hammerhead Shark",
       "valuePerSlot": "$47.22",
-      "image": "https://static.wikia.nocookie.net/dredge/images/1/1e/Gazing_Shark.png/revision/latest/scale-to-width-down/150?cb=20230406015824"
+      "grid": "5x3",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/c/c3/Gazing_Shark_Image.png/300px-Gazing_Shark_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/thumb/5/56/Gazing_Shark_Inventory.png/250px-Gazing_Shark_Inventory.png"
+      }
     },
     {
       "id": "130",
@@ -737,7 +1133,16 @@
       "time": "Any",
       "AberrationOf": "Crown of Thorns",
       "valuePerSlot": "$17.78",
-      "image": "https://static.wikia.nocookie.net/dredge/images/5/5c/Crown_of_Nadir.png/revision/latest/scale-to-width-down/150?cb=20231001194747"
+      "grid": "3x3",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/3/3b/Crown_of_Nadir_Image.png/300px-Crown_of_Nadir_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/7/7a/Crown_of_Nadir_Inventory.png"
+      }
     },
     {
       "id": "131",
@@ -750,7 +1155,16 @@
       "time": "Any",
       "AberrationOf": "Blue Crab",
       "valuePerSlot": "$15.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/5/5a/Entangled_Crab.png/revision/latest/scale-to-width-down/150?cb=20231001195329"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/c/c0/Entangled_Crab_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/f/f0/Entangled_Crab_Inventory.png"
+      }
     },
     {
       "id": "132",
@@ -763,7 +1177,16 @@
       "time": "Any",
       "AberrationOf": "Spiny Lobster",
       "valuePerSlot": "$15.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/8/8c/Imperious_Lobster.png/revision/latest/scale-to-width-down/150?cb=20231001195911"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/e/e0/Imperious_Lobster_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/1/1a/Imperious_Lobster_Inventory.png"
+      }
     },
     {
       "id": "133",
@@ -776,7 +1199,16 @@
       "time": "Any",
       "AberrationOf": "Grey Mullet",
       "valuePerSlot": "$15.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/a/a7/Entwined_Mullet.png/revision/latest/scale-to-width-down/150?cb=20230406024022"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/6/63/Entwined_Mullet_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/9/90/Entwined_Mullet_Inventory.png"
+      }
     },
     {
       "id": "134",
@@ -789,7 +1221,16 @@
       "time": "Any",
       "AberrationOf": "Grey Mullet",
       "valuePerSlot": "$22.50",
-      "image": "https://static.wikia.nocookie.net/dredge/images/e/ec/Gleaming_Mullet.png/revision/latest/scale-to-width-down/150?cb=20230709210028"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/c/c1/Gleaming_Mullet_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/d/da/Gleaming_Mullet_Inventory.png"
+      }
     },
     {
       "id": "135",
@@ -802,7 +1243,16 @@
       "time": "Any",
       "AberrationOf": "Tarpon",
       "valuePerSlot": "$20.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/3/35/Blistered_Tarpon.png/revision/latest/scale-to-width-down/150?cb=20230406023953"
+      "grid": "3x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/3/32/Blistered_Tarpon_Image.png/300px-Blistered_Tarpon_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/3/3c/Blistered_Tarpon_Inventory.png"
+      }
     },
     {
       "id": "136",
@@ -815,7 +1265,16 @@
       "time": "Day",
       "AberrationOf": "Sergeant Fish",
       "valuePerSlot": "$23.33",
-      "image": "https://static.wikia.nocookie.net/dredge/images/d/d1/Vortex_Interloper.png/revision/latest/scale-to-width-down/150?cb=20230406024129"
+      "grid": "3x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/1/17/Vortex_Interloper_Image.png/300px-Vortex_Interloper_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/e/e9/Vortex_Interloper_Inventory.png"
+      }
     },
     {
       "id": "137",
@@ -828,7 +1287,16 @@
       "time": "Day",
       "AberrationOf": "Gar",
       "valuePerSlot": "$25.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/2/2e/Clawfin_Gar.png/revision/latest/scale-to-width-down/150?cb=20230406024004"
+      "grid": "4x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/3/3b/Clawfin_Gar_Image.png/300px-Clawfin_Gar_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/e/ee/Clawfin_Gar_Inventory.png"
+      }
     },
     {
       "id": "138",
@@ -841,7 +1309,16 @@
       "time": "Day",
       "AberrationOf": "Gar",
       "valuePerSlot": "$27.50",
-      "image": "https://static.wikia.nocookie.net/dredge/images/0/0c/Grinning_Gar.png/revision/latest/scale-to-width-down/150?cb=20230709210033"
+      "grid": "4x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/4/4a/Grinning_Gar_Image.png/300px-Grinning_Gar_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/f/f1/Grinning_Gar_Inventory.png"
+      }
     },
     {
       "id": "139",
@@ -854,7 +1331,16 @@
       "time": "Night",
       "AberrationOf": "Longfin Eel",
       "valuePerSlot": "$31.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/8/81/Twinned_Eels.png/revision/latest/scale-to-width-down/150?cb=20230406024124"
+      "grid": "3x3",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/5/56/Twinned_Eels_Image.png/300px-Twinned_Eels_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/0/08/Twinned_Eels_Inventory.png"
+      }
     },
     {
       "id": "140",
@@ -867,7 +1353,16 @@
       "time": "Night",
       "AberrationOf": "Catfish",
       "valuePerSlot": "$30.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/e/e6/Nightwing_Catfish.png/revision/latest/scale-to-width-down/150?cb=20230406024049"
+      "grid": "3x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/b/b0/Nightwing_Catfish_Image.png/300px-Nightwing_Catfish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/d/d1/Nightwing_Catfish_Inventory.png"
+      }
     },
     {
       "id": "141",
@@ -880,7 +1375,16 @@
       "time": "Any",
       "AberrationOf": "Horseshoe Crab",
       "valuePerSlot": "$12.50",
-      "image": "https://static.wikia.nocookie.net/dredge/images/8/82/Effigy_Crab.png/revision/latest/scale-to-width-down/150?cb=20231001200626"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/5/5e/Effigy_Crab_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/2/26/Effigy_Crab_Inventory.png"
+      }
     },
     {
       "id": "142",
@@ -893,7 +1397,16 @@
       "time": "Any",
       "AberrationOf": "Giant Mud Crab",
       "valuePerSlot": "$16.67",
-      "image": "https://static.wikia.nocookie.net/dredge/images/2/2c/Mire_Screecher.png/revision/latest/scale-to-width-down/150?cb=20231001232207"
+      "grid": "3x2",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/9/99/Mire_Screecher_Image.png/300px-Mire_Screecher_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/2/27/Mire_Screecher_Inventory.png"
+      }
     },
     {
       "id": "143",
@@ -906,7 +1419,16 @@
       "time": "Day",
       "AberrationOf": "Armored Searobin",
       "valuePerSlot": "$18.33",
-      "image": "https://static.wikia.nocookie.net/dredge/images/a/a3/Ossified_Searobin.png/revision/latest/scale-to-width-down/150?cb=20230406024052"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/e/e6/Ossified_Searobin_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/b/b1/Ossified_Searobin_Inventory.png"
+      }
     },
     {
       "id": "144",
@@ -919,7 +1441,16 @@
       "time": "Night",
       "AberrationOf": "Cusk Eel",
       "valuePerSlot": "$26.67",
-      "image": "https://static.wikia.nocookie.net/dredge/images/8/85/Infernal_Eel.png/revision/latest/scale-to-width-down/150?cb=20230406024042"
+      "grid": "3x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/c/c6/Infernal_Eel_Image.png/300px-Infernal_Eel_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/c/cf/Infernal_Eel_Inventory.png"
+      }
     },
     {
       "id": "145",
@@ -932,7 +1463,16 @@
       "time": "Any",
       "AberrationOf": "Snake Mackerel",
       "valuePerSlot": "$16.67",
-      "image": "https://static.wikia.nocookie.net/dredge/images/d/d6/Serpentine_Mackerel.png/revision/latest/scale-to-width-down/150?cb=20230406024107"
+      "grid": "3x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/3/35/Serpentine_Mackerel_Image.png/300px-Serpentine_Mackerel_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/9/94/Serpentine_Mackerel_Inventory.png"
+      }
     },
     {
       "id": "146",
@@ -945,7 +1485,16 @@
       "time": "Any",
       "AberrationOf": "Snake Mackerel",
       "valuePerSlot": "$20.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/c/ce/Tattered_Mackerel.png/revision/latest/scale-to-width-down/150?cb=20230709210048"
+      "grid": "3x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/d/d8/Tattered_Mackerel_Image.png/300px-Tattered_Mackerel_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/1/16/Tattered_Mackerel_Inventory.png"
+      }
     },
     {
       "id": "147",
@@ -958,7 +1507,16 @@
       "time": "Day",
       "AberrationOf": "Pale Skate",
       "valuePerSlot": "$27.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/4/4a/Defaced_Skate.png/revision/latest/scale-to-width-down/150?cb=20230406024018"
+      "grid": "2x3",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/7/77/Defaced_Skate_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/4/41/Defaced_Skate_Inventory.png"
+      }
     },
     {
       "id": "148",
@@ -971,7 +1529,16 @@
       "time": "Any",
       "AberrationOf": "Ghost Shark",
       "valuePerSlot": "$30.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/4/4c/Rapt_Shark.png/revision/latest/scale-to-width-down/150?cb=20230406024056"
+      "grid": "3x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/4/4b/Rapt_Shark_Image.png/300px-Rapt_Shark_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/d/d1/Rapt_Shark_Inventory.png"
+      }
     },
     {
       "id": "149",
@@ -984,7 +1551,16 @@
       "time": "Any",
       "AberrationOf": "Frilled Shark",
       "valuePerSlot": "$50.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/4/46/Twisted_Shark.png/revision/latest/scale-to-width-down/150?cb=20230406015419"
+      "grid": "5x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/4/44/Twisted_Shark_Image.png/300px-Twisted_Shark_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/thumb/e/e0/Twisted_Shark_Inventory.png/250px-Twisted_Shark_Inventory.png"
+      }
     },
     {
       "id": "150",
@@ -997,7 +1573,16 @@
       "time": "Any",
       "AberrationOf": "Volcano Snail",
       "valuePerSlot": "$16.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/3/3d/Grasping_Snail.png/revision/latest/scale-to-width-down/150?cb=20231001232815"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/d/d5/Grasping_Snail_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/4/4c/Grasping_Snail_Inventory.png"
+      }
     },
     {
       "id": "151",
@@ -1010,7 +1595,16 @@
       "time": "Any",
       "AberrationOf": "Squat Lobster",
       "valuePerSlot": "$20.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/7/74/Sable_Reacher.png/revision/latest/scale-to-width-down/150?cb=20231001234951"
+      "grid": "3x3",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/6/65/Sable_Reacher_Image.png/300px-Sable_Reacher_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/8/86/Sable_Reacher_Inventory.png"
+      }
     },
     {
       "id": "152",
@@ -1023,7 +1617,16 @@
       "time": "Any",
       "AberrationOf": "Spider Crab",
       "valuePerSlot": "$19.29",
-      "image": "https://static.wikia.nocookie.net/dredge/images/a/ad/Umbral_Puppet.png/revision/latest/scale-to-width-down/150?cb=20231001235701"
+      "grid": "3x3",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/d/db/Umbral_Puppet_Image.png/300px-Umbral_Puppet_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/f/ff/Umbral_Puppet_Inventory.png"
+      }
     },
     {
       "id": "153",
@@ -1036,7 +1639,16 @@
       "time": "Any",
       "AberrationOf": "Anchovy",
       "valuePerSlot": "$18.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/9/99/Anchovy_King.png/revision/latest?cb=20230406023941"
+      "grid": "1x1",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/3/36/Anchovy_King_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/4/44/Anchovy_King_Inventory.png"
+      }
     },
     {
       "id": "154",
@@ -1049,7 +1661,16 @@
       "time": "Any",
       "AberrationOf": "Scarlet Prawn",
       "valuePerSlot": "$15.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/8/8e/Leeching_Prawn.png/revision/latest?cb=20231002000145"
+      "grid": "1x1",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "yes",
+        "pot": "yes"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/f/f0/Leeching_Prawn_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/4/45/Leeching_Prawn_Inventory.png"
+      }
     },
     {
       "id": "155",
@@ -1062,7 +1683,16 @@
       "time": "Any",
       "AberrationOf": "Blackfin Tuna",
       "valuePerSlot": "$25.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/b/be/Razormouth_Tuna.png/revision/latest/scale-to-width-down/150?cb=20230406024058"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/e/e6/Razormouth_Tuna_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/e/ea/Razormouth_Tuna_Inventory.png"
+      }
     },
     {
       "id": "156",
@@ -1075,7 +1705,16 @@
       "time": "Any",
       "AberrationOf": "Viperfish",
       "valuePerSlot": "$20.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/4/4b/Decrepit_Viperfish.png/revision/latest/scale-to-width-down/150?cb=20230406024017"
+      "grid": "3x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/6/67/Decrepit_Viperfish_Image.png/300px-Decrepit_Viperfish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/7/7c/Decrepit_Viperfish_Inventory.png"
+      }
     },
     {
       "id": "157",
@@ -1088,7 +1727,16 @@
       "time": "Any",
       "AberrationOf": "Viperfish",
       "valuePerSlot": "$10.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/7/7f/Collapsed_Viperfish.png/revision/latest/scale-to-width-down/150?cb=20230406024007"
+      "grid": "3x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/5/54/Collapsed_Viperfish_Image.png/300px-Collapsed_Viperfish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/e/e1/Collapsed_Viperfish_Inventory.png"
+      }
     },
     {
       "id": "158",
@@ -1101,7 +1749,16 @@
       "time": "Night",
       "AberrationOf": "Moonfish",
       "valuePerSlot": "$27.50",
-      "image": "https://static.wikia.nocookie.net/dredge/images/3/3c/Skeletal_Moonfish.png/revision/latest/scale-to-width-down/150?cb=20230406024110"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/4/48/Skeletal_Moonfish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/1/14/Skeletal_Moonfish_Inventory.png"
+      }
     },
     {
       "id": "159",
@@ -1114,7 +1771,16 @@
       "time": "Night",
       "AberrationOf": "Moonfish",
       "valuePerSlot": "$31.25",
-      "image": "https://static.wikia.nocookie.net/dredge/images/9/90/Beaked_Moonfish.png/revision/latest/scale-to-width-down/150?cb=20230709205955"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/9/9d/Beaked_Moonfish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/b/ba/Beaked_Moonfish_Inventory.png"
+      }
     },
     {
       "id": "160",
@@ -1127,7 +1793,16 @@
       "time": "Any",
       "AberrationOf": "Rattail",
       "valuePerSlot": "$26.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/8/8d/Congealed_Rattail.png/revision/latest/scale-to-width-down/150?cb=20230406024009"
+      "grid": "3x3",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/5/50/Congealed_Rattail_Image.png/300px-Congealed_Rattail_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/7/7f/Congealed_Rattail_Inventory.png"
+      }
     },
     {
       "id": "161",
@@ -1140,7 +1815,16 @@
       "time": "Day",
       "AberrationOf": "Ocean Sunfish",
       "valuePerSlot": "$30.56",
-      "image": "https://static.wikia.nocookie.net/dredge/images/1/10/Charred_Sunfish.png/revision/latest/scale-to-width-down/150?cb=20230406015016"
+      "grid": "3x3",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/3/34/Charred_Sunfish_Image.png/300px-Charred_Sunfish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/1/1a/Charred_Sunfish_Inventory.png"
+      }
     },
     {
       "id": "162",
@@ -1153,7 +1837,16 @@
       "time": "Day",
       "AberrationOf": "Ocean Sunfish",
       "valuePerSlot": "$33.33",
-      "image": "https://static.wikia.nocookie.net/dredge/images/f/fe/Glaring_Sunfish.png/revision/latest/scale-to-width-down/150?cb=20230709210022"
+      "grid": "3x3",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/e/ee/Glaring_Sunfish_Image.png/300px-Glaring_Sunfish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/0/02/Glaring_Sunfish_Inventory.png"
+      }
     },
     {
       "id": "163",
@@ -1166,7 +1859,16 @@
       "time": "Any",
       "AberrationOf": "Icefish",
       "valuePerSlot": "$17.50",
-      "image": "https://static.wikia.nocookie.net/dredge/images/6/64/Fractalline_Icefish.png/revision/latest/scale-to-width-down/150?cb=20231118194926"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/c/c3/Fractalline_Icefish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/d/d9/Fractalline_Icefish_Inventory.png"
+      }
     },
     {
       "id": "164",
@@ -1179,7 +1881,16 @@
       "time": "Any",
       "AberrationOf": "Icefish",
       "valuePerSlot": "$22.50",
-      "image": "https://static.wikia.nocookie.net/dredge/images/6/6d/Thawed_Icefish.png/revision/latest/scale-to-width-down/150?cb=20231118194921"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/5/51/Thawed_Icefish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/4/4d/Thawed_Icefish_Inventory.png"
+      }
     },
     {
       "id": "165",
@@ -1192,7 +1903,16 @@
       "time": "Any",
       "AberrationOf": "Icefish",
       "valuePerSlot": "$27.50",
-      "image": "https://static.wikia.nocookie.net/dredge/images/8/84/Astral_Icefish.png/revision/latest/scale-to-width-down/150?cb=20231118194917"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/4/4e/Astral_Icefish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/7/71/Astral_Icefish_Inventory.png"
+      }
     },
     {
       "id": "166",
@@ -1205,7 +1925,16 @@
       "time": "Any",
       "AberrationOf": "Char",
       "valuePerSlot": "$14.67",
-      "image": "https://static.wikia.nocookie.net/dredge/images/b/b3/Bubbling_Char.png/revision/latest/scale-to-width-down/150?cb=20231118195138"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/6/6e/Bubbling_Char_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/3/3a/Bubbling_Char_Inventory.png"
+      }
     },
     {
       "id": "167",
@@ -1218,7 +1947,16 @@
       "time": "Night",
       "AberrationOf": "Wolffish",
       "valuePerSlot": "$20.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/e/e2/Hinged_Wolffish.png/revision/latest/scale-to-width-down/150?cb=20231118194911"
+      "grid": "3x1",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/8/80/Hinged_Wolffish_Image.png/300px-Hinged_Wolffish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/6/67/Hinged_Wolffish_Inventory.png"
+      }
     },
     {
       "id": "168",
@@ -1231,7 +1969,16 @@
       "time": "Any",
       "AberrationOf": "Stargazer",
       "valuePerSlot": "$18.75",
-      "image": "https://static.wikia.nocookie.net/dredge/images/c/c6/Craterous_Seer.png/revision/latest/scale-to-width-down/150?cb=20231118194859"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/3/38/Craterous_Seer_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/0/0a/Craterous_Seer_Inventory.png"
+      }
     },
     {
       "id": "169",
@@ -1244,7 +1991,16 @@
       "time": "Any",
       "AberrationOf": "Lizardfish",
       "valuePerSlot": "$24.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/6/6f/Feral_Lizardfish.png/revision/latest/scale-to-width-down/150?cb=20231118194855"
+      "grid": "2x3",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/3/35/Feral_Lizardfish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/4/49/Feral_Lizardfish_Inventory.png"
+      }
     },
     {
       "id": "170",
@@ -1257,7 +2013,16 @@
       "time": "Any",
       "AberrationOf": "Toothfish",
       "valuePerSlot": "$23.33",
-      "image": "https://static.wikia.nocookie.net/dredge/images/8/8e/Bulbous_Toothfish.png/revision/latest/scale-to-width-down/150?cb=20231118194851"
+      "grid": "3x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/8/87/Bulbous_Toothfish_Image.png/300px-Bulbous_Toothfish_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/9/90/Bulbous_Toothfish_Inventory.png"
+      }
     },
     {
       "id": "171",
@@ -1270,7 +2035,16 @@
       "time": "Any",
       "AberrationOf": "Goblin Shark",
       "valuePerSlot": "$37.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/3/38/Grisly_Shark.png/revision/latest/scale-to-width-down/150?cb=20231118194845"
+      "grid": "4x2",
+      "captureMethods": {
+        "rod": "yes",
+        "trawl": "no",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/4/4b/Grisly_Shark_Image.png/300px-Grisly_Shark_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/5/50/Grisly_Shark_Inventory.png"
+      }
     },
     {
       "id": "172",
@@ -1283,7 +2057,16 @@
       "time": "Any",
       "AberrationOf": "Colossal Squid",
       "valuePerSlot": "$45.45",
-      "image": "https://static.wikia.nocookie.net/dredge/images/7/77/Pale_Grasper.png/revision/latest/scale-to-width-down/150?cb=20231118194839"
+      "grid": "5x3",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "yes",
+        "pot": "no"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/thumb/2/2d/Pale_Grasper_Image.png/300px-Pale_Grasper_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/thumb/a/a9/Pale_Grasper_Inventory.png/250px-Pale_Grasper_Inventory.png"
+      }
     },
     {
       "id": "173",
@@ -1296,7 +2079,16 @@
       "time": "Any",
       "AberrationOf": "Sea Stars",
       "valuePerSlot": "$20.00",
-      "image": "https://static.wikia.nocookie.net/dredge/images/7/73/Fallen_Stars.png/revision/latest?cb=20231118194833"
+      "grid": "2x1",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/5/5a/Fallen_Stars_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/0/0e/Fallen_Stars_Inventory.png"
+      }
     },
     {
       "id": "174",
@@ -1309,7 +2101,16 @@
       "time": "Any",
       "AberrationOf": "King Crab",
       "valuePerSlot": "$21.25",
-      "image": "https://static.wikia.nocookie.net/dredge/images/f/f6/King%27s_Wreath.png/revision/latest/scale-to-width-down/150?cb=20231118194828"
+      "grid": "2x2",
+      "captureMethods": {
+        "rod": "no",
+        "trawl": "no",
+        "pot": "yes"
+      },
+      "images": {
+        "AberrationImage": "https://dredge.wiki.gg/images/6/6c/King%27s_Wreath_Image.png",
+        "inventoryImage": "https://dredge.wiki.gg/images/2/25/King%27s_Wreath_Inventory.png"
+      }
     }
   ]
 }
