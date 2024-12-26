@@ -1,0 +1,82 @@
+<p>aberration-detail works!</p>
+<div class="container mt-4 p-4">
+  <!-- Título -->
+  <h1 class="text-center mb-4 fw-bold text-dark">{{ aberration?.name }}</h1>
+
+  <!-- Información del pez -->
+  <div class="row justify-content-center">
+    <div class="col-md-10 p-4 rounded" style="background-color: #f5e0c3">
+      <div class="row">
+        <!-- Columna de datos -->
+        <div class="col-md-6">
+          <ul class="list-unstyled text-dark">
+            <li><strong>Ubicación:</strong> {{ aberration?.location }}</li>
+            <li><strong>Hora:</strong> {{ aberration?.time }}</li>
+            <li>
+              <strong>Valor por Slot:</strong> {{ aberration?.valuePerSlot }}
+            </li>
+            <li>
+              <strong>Aberraciones:</strong> {{ aberration?.AberrationOf }}
+            </li>
+            <li><strong>Grid:</strong> {{ aberration?.grid }}</li>
+            <li><strong>Rod:</strong> {{ aberration?.captureMethods?.rod }}</li>
+            <li>
+              <strong>Trawl:</strong> {{ aberration?.captureMethods?.trawl }}
+            </li>
+            <li><strong>Pot:</strong> {{ aberration?.captureMethods?.pot }}</li>
+          </ul>
+        </div>
+
+        <!-- Columna de imágenes -->
+        <div class="col-md-6 text-center">
+          <!-- Imagen principal del pescado -->
+          <div class="mb-3">
+            <img
+              [src]="aberration?.images?.AberrationImage"
+              alt="{{ aberration?.name }}"
+              class="img-fluid rounded"
+              style="
+                max-height: 200px;
+                object-fit: contain;
+                border: 2px solid #e3c6a8;
+              "
+            />
+          </div>
+          <!-- Nueva imagen del tipo -->
+          <div class="mb-3">
+            <img
+              [src]="aberration?.type?.image"
+              alt="Tipo de {{ aberration?.name }}"
+              class="img-fluid rounded"
+              style="
+                max-height: 100px;
+                object-fit: contain;
+                border: 2px solid #e3c6a8;
+              "
+            />
+          </div>
+          <p class="fw-bold text-secondary">Inventario</p>
+          <div>
+            <img
+              [src]="aberration?.images?.inventoryImage"
+              alt="Inventario de {{ aberration?.name }}"
+              class="img-fluid"
+              style="
+                max-height: 100px;
+                object-fit: contain;
+                border: 2px solid #e3c6a8;
+              "
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Volver al listado de peces -->
+  <div class="d-flex justify-content-center mt-4">
+    <button class="btn btn-secondary" [routerLink]="'/aberrationList'">
+      Volver al listado
+    </button>
+  </div>
+</div>
