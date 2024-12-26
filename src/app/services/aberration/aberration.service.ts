@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 import {
   AberrationDatum,
   IAberration,
@@ -35,5 +36,13 @@ export class AberrationService {
         observer.complete();
       });
     });
+  }
+
+  getAberrationById(id: string): Observable<AberrationDatum | undefined> {
+    return this.httpClient.get<IAberration>(this.urlAberration).pipe(
+      map((response) =>
+        response.aberrationData.find((aberration) => aberration.id === id)
+      ) // Buscar por id dentro de aberrationData
+    );
   }
 }
