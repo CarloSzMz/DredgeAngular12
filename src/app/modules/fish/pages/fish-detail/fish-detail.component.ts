@@ -30,17 +30,6 @@ export class FishDetailComponent implements OnInit {
           console.error('Error al obtener el pez', error);
         }
       );
-    } else if (name) {
-      // Buscar por nombre
-      this.fishService.getFishByName(name).subscribe(
-        (fish) => {
-          this.pescado = fish;
-          console.log(this.pescado);
-        },
-        (error) => {
-          console.error('Error al obtener el pez por nombre', error);
-        }
-      );
     }
   }
 }

@@ -6,7 +6,7 @@ import { FishDetailComponent } from './pages/fish-detail/fish-detail.component';
 const routes: Routes = [
   { path: '', component: FishListComponent },
   { path: 'fishDetails/:id', component: FishDetailComponent },
-  { path: 'fishSearch/:name', component: FishDetailComponent },
+  { path: 'fishSearch/:name', component: FishListComponent },
 ];
 
 @NgModule({

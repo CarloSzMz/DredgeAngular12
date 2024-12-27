@@ -35,10 +35,20 @@ export class FishServiceService {
     );
   }
 
-  getFishByName(name: string): Observable<FishDatum | undefined> {
+  // getFishByName(name: string): Observable<FishDatum | undefined> {
+  //   return this.getAllFishData().pipe(
+  //     map((fishData) =>
+  //       fishData.find((fish) => fish.name.toLowerCase() === name.toLowerCase())
+  //     )
+  //   );
+  // }
+
+  getFishByName(name: string): Observable<FishDatum[]> {
     return this.getAllFishData().pipe(
       map((fishData) =>
-        fishData.find((fish) => fish.name.toLowerCase() === name.toLowerCase())
+        fishData.filter((fish) =>
+          fish.name.toLowerCase().includes(name.toLowerCase())
+        )
       )
     );
   }
