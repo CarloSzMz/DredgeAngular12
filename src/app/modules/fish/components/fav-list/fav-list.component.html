@@ -1,0 +1,12 @@
+<div
+  *ngFor="let fav of favouriteFish"
+  class="fav-item d-flex flex-column align-items-center"
+>
+  <img
+    [src]="fav.images.fishImage"
+    alt="{{ fav.name }}"
+    class="fav-image rounded-circle"
+  />
+  <p class="fav-name ms-3 mb-0">{{ fav.name }}</p>
+  <hr class="fav-hr" />
+</div>

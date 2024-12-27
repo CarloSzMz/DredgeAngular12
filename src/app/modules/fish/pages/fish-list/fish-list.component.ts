@@ -14,12 +14,19 @@ export class FishListComponent implements OnInit {
     private route: ActivatedRoute
   ) {}
   fish!: FishDatum[];
+  favouriteFish: FishDatum[] = []; // Lista de favoritos
 
   ngOnInit(): void {
     // Suscribirse al Observable de los peces filtrados
     this.fishService.filteredFish$.subscribe((filteredFish) => {
       this.fish = filteredFish;
-      console.log('Peces filtrados:', this.fish);
+      //console.log('Peces filtrados:', this.fish);
+    });
+
+    // Suscribirse a los cambios en los favoritos
+    this.fishService.favouriteFish$.subscribe((favourites) => {
+      this.favouriteFish = favourites;
+      //console.log('Peces favoritos:', this.favouriteFish);
     });
 
     // Suscribirse a los cambios en los parámetros de la URL
@@ -38,7 +45,7 @@ export class FishListComponent implements OnInit {
     this.fishService.getFishByName(name).subscribe(
       (fishArray) => {
         this.fish = fishArray;
-        console.log('Peces encontrados por nombre:', this.fish);
+        //console.log('Peces encontrados por nombre:', this.fish);
       },
       (error) => {
         console.error('Error al obtener peces por nombre', error);

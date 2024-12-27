@@ -1,0 +1,28 @@
+/* Estilo de los elementos en cada línea de la lista */
+.fav-item {
+  display: flex;
+  align-items: center; /* Asegura que la imagen y el texto estén alineados horizontalmente */
+  margin-bottom: 10px; /* Espacio entre los elementos */
+}
+
+.fav-image {
+  width: 60px; /* Tamaño de la imagen */
+  height: 60px; /* Mantén la altura igual para ser circular */
+  border-radius: 50%; /* Asegura que la imagen sea circular */
+  object-fit: contain; /* La imagen se ajustará al tamaño del contenedor sin recortarse */
+}
+
+.fav-name {
+  margin-left: 15px; /* Espacio entre la imagen y el nombre */
+  font-size: 16px; /* Tamaño del texto del nombre */
+  font-weight: 500; /* Negrita para el nombre */
+}
+
+/* Estilo para el hr */
+.fav-hr {
+  width: 60%; /* Ancho del hr, un poco más corto que el contenedor */
+  border-top: 1px solid #4caf50; /* Color verde para la línea */
+  margin-top: 10px; /* Espacio entre el nombre y el hr */
+  margin-bottom: 10px; /* Espacio debajo del hr */
+  margin-left: 0; /* Alineación del hr */
+}

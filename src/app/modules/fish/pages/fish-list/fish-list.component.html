@@ -11,8 +11,20 @@
       >
         Filters
       </button>
-
-      <app-fish-searcher></app-fish-searcher>
+      <div class="d-flex align-items-center justify-content-center">
+        <div style="margin-right: 7px">
+          <app-fish-searcher></app-fish-searcher>
+        </div>
+        <div style="margin-left: 7px">
+          <i
+            class="bi bi-bookmark-heart-fill text-danger fs-2"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions"
+          ></i>
+        </div>
+      </div>
     </div>
 
     <div class="collapse mt-3" id="filtersCollapse">
@@ -27,6 +39,31 @@
         [pescado]="pescao"
         class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 justify-content-center d-flex"
       ></app-fish-card>
+    </div>
+  </div>
+
+  <div>
+    <div
+      class="offcanvas offcanvas-end"
+      data-bs-scroll="true"
+      tabindex="-1"
+      id="offcanvasWithBothOptions"
+      aria-labelledby="offcanvasWithBothOptionsLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+          Favorite List
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <app-fav-list [favouriteFish]="favouriteFish"></app-fav-list>
+      </div>
     </div>
   </div>
 </div>
