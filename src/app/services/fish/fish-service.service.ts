@@ -14,8 +14,12 @@ import { map } from 'rxjs/operators';
 })
 export class FishServiceService {
   private url: string = 'assets/data/fishData.json';
+
   private filteredFishSubject = new BehaviorSubject<FishDatum[]>([]); // Para manejar la lista filtrada
   filteredFish$ = this.filteredFishSubject.asObservable(); // Observable para suscribirse
+
+  private favouriteFishSubject = new BehaviorSubject<FishDatum[]>([]); // Lista de favoritos
+  favouriteFish$ = this.favouriteFishSubject.asObservable(); // Observable para suscribirse
 
   constructor(private httpClient: HttpClient) {}
 
@@ -34,14 +38,6 @@ export class FishServiceService {
       map((response) => response.fishData.find((fish) => fish.id === id)) // Buscar por id dentro de fishData
     );
   }
-
-  // getFishByName(name: string): Observable<FishDatum | undefined> {
-  //   return this.getAllFishData().pipe(
-  //     map((fishData) =>
-  //       fishData.find((fish) => fish.name.toLowerCase() === name.toLowerCase())
-  //     )
-  //   );
-  // }
 
   getFishByName(name: string): Observable<FishDatum[]> {
     return this.getAllFishData().pipe(
@@ -84,5 +80,28 @@ export class FishServiceService {
     console.log(filtered);
 
     return filtered;
+  }
+
+  // Añadir un pez a la lista de favoritos
+  addToFavourite(fish: FishDatum): void {
+    const favourites = this.favouriteFishSubject.value;
+    if (!favourites.some((f) => f.id === fish.id)) {
+      favourites.push(fish);
+      this.favouriteFishSubject.next(favourites);
+    }
+  }
+
+  // Eliminar un pez de la lista de favoritos
+  removeFromFavourite(fishId: string): void {
+    const favourites = this.favouriteFishSubject.value.filter(
+      (fish) => fish.id !== fishId
+    );
+    this.favouriteFishSubject.next(favourites);
+  }
+
+  // Método para verificar si un pez está en favoritos
+  isFishInFavourite(fishId: string): boolean {
+    const currentFavourites = this.favouriteFishSubject.value;
+    return currentFavourites.some((fav) => fav.id === fishId);
   }
 }

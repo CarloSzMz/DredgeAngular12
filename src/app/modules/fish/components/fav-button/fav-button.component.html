@@ -1,0 +1,9 @@
+<div class="fav-button">
+  <!-- Usamos el ngClass para alternar entre estrella vacía o rellena -->
+  <i
+    class="bi"
+    [ngClass]="isFavorite() ? 'bi-star-fill' : 'bi-star'"
+    class="text-warning fs-4 star-icon"
+    (click)="toggleFav()"
+  ></i>
+</div>

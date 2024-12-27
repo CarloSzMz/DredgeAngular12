@@ -8,6 +8,8 @@ import { FishCardButtonComponent } from './components/fish-card-button/fish-card
 import { FishSearcherComponent } from './components/fish-searcher/fish-searcher.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FishFiltersComponent } from './components/fish-filters/fish-filters.component';
+import { FavButtonComponent } from './components/fav-button/fav-button.component';
+import { FavListComponent } from './components/fav-list/fav-list.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { FishFiltersComponent } from './components/fish-filters/fish-filters.com
     FishCardButtonComponent,
     FishSearcherComponent,
     FishFiltersComponent,
+    FavButtonComponent,
+    FavListComponent,
   ],
   imports: [CommonModule, FishRoutingModule, FormsModule, ReactiveFormsModule],
 })
